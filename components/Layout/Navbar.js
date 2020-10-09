@@ -85,6 +85,13 @@ class Navbar extends Component {
 
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
+                                    
+                                    <li className="nav-item">
+                                        <Link href="/kwantu-home" activeClassName="active">
+                                            <a className="nav-link">Kwantu Home</a>
+                                        </Link>
+                                    </li>
+                                
                                     <li className="nav-item">
                                         <Link href="#" activeClassName="active">
                                             <a className="nav-link">
@@ -93,6 +100,7 @@ class Navbar extends Component {
                                         </Link>
 
                                         <ul className="dropdown-menu">
+                                            
                                             <li className="nav-item">
                                                 <Link href="/" activeClassName="active">
                                                     <a className="nav-link">Home One</a>
