@@ -20,7 +20,7 @@ class Index2 extends Component {
     render() {
         return (
             <React.Fragment>
-                {/* <Navbar /> */}
+                <Navbar />
                 <Banner />
                 <Features />  
                 <AboutUs />
