@@ -1,0 +1,29 @@
+{
+    "name": "luzon-react",
+    "version": "1.0.0",
+    "description": "Luzon - React IT Startups & Digital Services Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "file-loader": "^6.0.0",
+        "next": "^9.3.6",
+        "next-compose-plugins": "^2.2.0",
+        "next-images": "^1.4.0",
+        "next-seo": "^4.4.0",
+        "react": "^16.13.1",
+        "react-accessible-accordion": "^3.0.1",
+        "react-dom": "^16.13.1",
+        "react-modal-video": "^1.2.3",
+        "react-owl-carousel3": "^2.2.5",
+        "react-visibility-sensor": "^5.1.1",
+        "react-wow": "^1.0.0",
+        "url-loader": "^4.1.0"
+    }
+}
