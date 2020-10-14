@@ -15,6 +15,10 @@ Navbar Area CSS - custom
     font-weight: 500;
   }
   
-  .navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active {
+.navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active {
     color: #DB2229;
-  }
+}
+
+.navbar-brand img {
+    max-width: 250px;
+}
