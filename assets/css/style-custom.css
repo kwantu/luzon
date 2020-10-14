@@ -1,4 +1,20 @@
+/* colors from logo
+red: #DB2229
+green: #276474
+gray: #8B9EAB
+*/
 
-/*
-Custom CSS File added
-**/
+
+/*================================================
+Navbar Area CSS - custom
+=================================================*/
+.navbar-area .navbar .navbar-nav .nav-item a {
+    font-size: 20px;
+    color: #276474;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active {
+    color: #DB2229;
+  }
