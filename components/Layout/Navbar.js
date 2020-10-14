@@ -91,27 +91,27 @@ class Navbar extends Component {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/" activeClassName="active">
+                                        <Link href="/our-approach" activeClassName="active">
                                             <a className="nav-link">Our Approach</a>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/" activeClassName="active">
+                                        <Link href="/technology" activeClassName="active">
                                             <a className="nav-link">Technology</a>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/" activeClassName="active">
+                                        <Link href="/focus-areas" activeClassName="active">
                                             <a className="nav-link">Focus Areas</a>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/" activeClassName="active">
+                                        <Link href="/blog" activeClassName="active">
                                             <a className="nav-link">Blog</a>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/" activeClassName="active">
+                                        <Link href="/contact-us" activeClassName="active">
                                             <a className="nav-link">Contact Us</a>
                                         </Link>
                                     </li>

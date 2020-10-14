@@ -8,6 +8,11 @@ gray: #8B9EAB
 /*================================================
 Navbar Area CSS - custom
 =================================================*/
+.navbar-area .navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .navbar-area .navbar .navbar-nav .nav-item a {
     font-size: 20px;
     color: #276474;
