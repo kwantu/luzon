@@ -1,6 +1,7 @@
 /* colors from logo
 red: #DB2229
 green: #276474
+mint: #b2dcd8
 gray: #8B9EAB
 */
 
@@ -8,22 +9,52 @@ gray: #8B9EAB
 /*================================================
 Navbar Area CSS - custom
 =================================================*/
-.navbar-area .navbar {
+.navbar-area.fixed-top {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.navbar-area.fixed-top.is-sticky {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
-.navbar-area .navbar .navbar-nav .nav-item a {
+.navbar-area .navbar .navbar-nav .nav-item a, 
+.navbar-area.is-sticky .navbar .navbar-nav .nav-item a {
     font-size: 20px;
     color: #276474;
     text-transform: uppercase;
     font-weight: 500;
   }
   
-.navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active {
+.navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active, 
+.navbar-area.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a.active {
     color: #DB2229;
 }
 
 .navbar-brand img {
     max-width: 250px;
 }
+
+/*================================================
+Banner Area CSS
+=================================================*/
+.main-banner-area {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .home-sliders .home-item {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  
+  .home-sliders .home-item::before {
+    width: 50%;
+    background: none;
+    background-image: linear-gradient( to right, #FFF, transparent 90%);
+    opacity: 0.9;
+  }
