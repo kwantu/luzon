@@ -88,7 +88,7 @@ class Navbar extends Component {
                                     
                                     <li className="nav-item">
                                         <Link href="/kwantu-home" activeClassName="active">
-                                            <a className="nav-link">Kwantu Home</a>
+                                            <a className="nav-link">Kwantu Home Dev</a>
                                         </Link>
                                     </li>
                                 

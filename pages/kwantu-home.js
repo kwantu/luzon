@@ -19,7 +19,6 @@ class KwantuHome extends Component {
                 <Banner />
                 <BlogPost />
                 <Footer />
-                <Footer />
             </React.Fragment>
         );
     }
