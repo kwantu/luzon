@@ -77,7 +77,7 @@ class BannerSlider extends Component {
                                                 <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
                                                     <Link href="/">
                                                         <a className="default-btn">
-                                                            Find Out More
+                                                            Button Two
                                                             <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                                         </a>
                                                     </Link>
@@ -103,7 +103,7 @@ class BannerSlider extends Component {
                                                 <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
                                                     <Link href="/">
                                                         <a className="default-btn">
-                                                            Find Out More
+                                                            Button Three
                                                             <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                                         </a>
                                                     </Link>

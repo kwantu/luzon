@@ -15,8 +15,17 @@ Site CSS - custom
   }
 }
 
-.red {
-  color: #DB2229;
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #0B3E47;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 900;
+  text-transform: none;
 }
 
 
@@ -50,7 +59,7 @@ Navbar Area CSS - custom
 }
 
 /*================================================
-Banner Area CSS
+Banner Area CSS - custom
 =================================================*/
 .main-banner-area {
     position: relative;
@@ -148,3 +157,41 @@ Banner Area CSS
 }
 
 
+/*================================================
+Sections CSS - custom
+=================================================*/
+.home-tab-icon {
+  max-width: 150px;
+}
+.schedule-list-tab .tabs li span{
+  font-size: 25px;
+  line-height: 25px;;
+  font-weight: 600;
+  color: #0B3E47;
+  padding: 0;
+}
+
+.schedule-list-tab .tabs li {
+  background-color: #f8f8f8;
+  min-width: 70%;
+  height: 220px;
+}
+
+.schedule-list-tab .tabs li.current, .schedule-list-tab .tabs li:hover {
+  background-color: #b2dcd8;
+}
+
+.equal-widths-parent {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.equal-widths-parent > * {
+  flex: 1;
+  /* display: inline-flex; */
+}
+/* 
+.equal-widths-parent > * > * {
+  flex: 1;
+} */
