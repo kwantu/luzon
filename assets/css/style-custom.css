@@ -1,9 +1,23 @@
 /* colors from logo
 red: #DB2229
+dark green: #0B3E47
 green: #276474
 mint: #b2dcd8
 gray: #8B9EAB
 */
+
+/*================================================
+Site CSS - custom
+=================================================*/
+@media (min-width: 1200px){
+  .container {
+    max-width: 1300px;
+  }
+}
+
+.red {
+  color: #DB2229;
+}
 
 
 /*================================================
@@ -23,7 +37,7 @@ Navbar Area CSS - custom
     font-size: 20px;
     color: #276474;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
   }
   
 .navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active, 
@@ -43,18 +57,94 @@ Banner Area CSS
     overflow: hidden;
   }
   
-  .home-sliders .home-item {
-    position: relative;
-    height: 100vh;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
-  }
-  
+.home-sliders .home-item {
+  position: relative;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.home-sliders .home-item::before {
+  width: 100%;
+  background: transparent;
+  /* background-image: linear-gradient( to right, #FFF, transparent 90%); */
+  opacity: 1;
+}
+
+@media (min-width: 991px) {
   .home-sliders .home-item::before {
-    width: 50%;
-    background: none;
-    background-image: linear-gradient( to right, #FFF, transparent 90%);
-    opacity: 0.9;
+    background:url(../../images/backgrounds/bg_gradient.png) left center no-repeat;
+    background-size: 1100px;
   }
+}
+
+.home-sliders .home-item .main-banner-content {
+  max-width: 900px;
+}
+
+
+.home-sliders .home-item .main-banner-content h1, 
+.home-sliders .home-item .main-banner-content p {
+  color: #0B3E47;
+  font-weight: 900;
+}
+
+.home-sliders .home-item .main-banner-content h1, 
+.home-sliders .home-item .main-banner-content p {
+  font-size: 50px;
+  line-height: 55px;
+}
+
+@media (max-width: 991px) {
+  .home-sliders .home-item .main-banner-content h1, 
+  .home-sliders .home-item .main-banner-content p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+.main-banner-content {
+  background: #FFF;
+  padding: 50px 60px;
+  border-radius: 60px;
+}
+
+.home-sliders .home-item .main-banner-content .banner-btn .default-btn {
+  box-shadow: none;
+  background: #DB2229;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+}
+
+.home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover {
+  box-shadow: 5px 5px #0B3E47;
+}
+
+.home-sliders .home-item .main-banner-content .banner-btn .default-btn i {
+  font-size: 25px;
+  line-height: 30px;
+  margin-left: 20px;
+  display: inline-flex;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  zoom: 2 !important;
+}
+
+.owl-theme .owl-dots .owl-dot .active{
+  zoom: 2.3 !important;
+}
+
+.home-sliders.owl-theme .owl-dots .owl-dot:hover span, .home-sliders.owl-theme .owl-dots .owl-dot.active span, 
+.home-sliders.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #DB2229;
+}
+
+
