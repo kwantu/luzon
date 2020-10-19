@@ -57,12 +57,14 @@ class DigitalExperience extends Component {
                         <div className="tab_content">
                             <div id="tab1" className="tabs_item">
                                 <div className="row">
-                                    <h3>Kwantu works with central and local governments to implement cost effective administrative data systems.</h3>
+                                    <div className="col-lg-12">
+                                        <h3>Kwantu works with central and local governments to implement cost effective administrative data systems.</h3>
+                                    </div>
 
                                     <div className="col-lg-5">
                                         <h2>&nbsp;</h2>
 
-                                        <ul>
+                                        <ul className="red-arrow-list">
                                             <li><a href="#">Reporting on annual performance and development plans</a></li>
                                             <li><a href="#">Reporting on national programmes</a></li>
                                             <li><a href="#">Tracking project milestones</a></li>
@@ -80,82 +82,53 @@ class DigitalExperience extends Component {
                             </div>
 
                             <div id="tab2" className="tabs_item">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-6">
-                                        <div className="tab-content">
-                                            <h3>Pay-Per-Click</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
-
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>Super Responsive</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>High Security</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>Optimal Choice</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
                                     </div>
 
-                                    <div className="col-lg-6">
+                                    <div className="col-lg-5">
+                                        <h2>&nbsp;</h2>
+
+                                        <ul className="red-arrow-list">
+                                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></li>
+                                            <li><a href="#">dolor sit amet, consectetur adipiscing elit, sed do eiusmod</a></li>
+                                            <li><a href="#">consectetur adipiscing elit, sed do eiusmod tempor incididunt</a></li>
+                                            <li><a href="#">sed do eiusmod tempor incididunt</a></li>
+                                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="col-lg-7">
                                         <div className="tab-image">
-                                            <img src={require("../../images/tab.png")} alt="image" />
+                                            <img src={require("../../images/infographics/home_infographic.png")} alt="image" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div id="tab3" className="tabs_item">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-6">
-                                        <div className="tab-content">
-                                            <h3>Online Marketing</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
-
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>Super Responsive</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>High Security</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>Optimal Choice</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div className="row">
+                                    <div className="col-lg-12">
+                                        <h3>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                                        <h3>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
                                     </div>
 
-                                    <div className="col-lg-6">
+                                    <div className="col-lg-5">
+                                        <h2>&nbsp;</h2>
+
+                                        <ul className="red-arrow-list">
+                                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></li>
+                                            <li><a href="#">dolor sit amet, consectetur adipiscing elit, sed do eiusmod</a></li>
+                                            <li><a href="#">consectetur adipiscing elit, sed do eiusmod tempor incididunt</a></li>
+                                            <li><a href="#">sed do eiusmod tempor incididunt</a></li>
+                                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="col-lg-7">
                                         <div className="tab-image">
-                                            <img src={require("../../images/tab.png")} alt="image" />
+                                            <img src={require("../../images/infographics/home_infographic.png")} alt="image" />
                                         </div>
                                     </div>
                                 </div>

@@ -3,12 +3,12 @@ red: #CE2026
 dark green: #013E48 
 green: #2A6473
 light green: #216876;
-mint: #b2dcd8
+mint: #D9EFEB
 gray: #8B9EAA
 */
 
 /*================================================
-Site CSS - custom
+Global CSS - custom
 =================================================*/
 @media (min-width: 1200px){
   .container {
@@ -42,17 +42,45 @@ p, li {
   line-height: 30px;
 }
 
+ul.red-arrow-list li {
+  list-style-position: outside;
+  list-style-image: url(../../images/shape/red-arrow-right.png);
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
 a:link, a:visited {
   color: #216876;
+  text-decoration: underline;
 }
 a:hover, a:active {
   color: #013E48;
+  text-decoration: none;
+}
+
+.bg-mint {
+  background-color: #D9EFEB;
+}
+
+.bg-top-curve {
+  padding-top: 200px;
+  background-image: url(../../images/backgrounds/bg-top-curve.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
 /*================================================
 Navbar Area CSS - custom
 =================================================*/
+.navbar-area .navbar ul li {
+  margin-bottom: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar-area.fixed-top {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -60,6 +88,16 @@ Navbar Area CSS - custom
 .navbar-area.fixed-top.is-sticky {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+@media (max-width: 991px) {
+  .navbar-area.fixed-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-area.fixed-top.is-sticky {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
 }
 
 .navbar-area .navbar .navbar-nav .nav-item a, 
@@ -73,6 +111,10 @@ Navbar Area CSS - custom
 .navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active, 
 .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a.active {
     color: #CE2026;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: #CE2026;
 }
 
 .navbar-brand img {
@@ -191,6 +233,12 @@ Sections CSS - custom
   font-weight: 600;
   color: #013E48;
   padding: 0;
+}
+@media (max-width: 991px) {
+  .schedule-list-tab .tabs li span {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 .schedule-list-tab .tabs li {
