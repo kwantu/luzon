@@ -1,9 +1,10 @@
 /* colors from logo
-red: #DB2229
-dark green: #0B3E47
-green: #276474
+red: #CE2026
+dark green: #013E48 
+green: #2A6473
+light green: #216876;
 mint: #b2dcd8
-gray: #8B9EAB
+gray: #8B9EAA
 */
 
 /*================================================
@@ -21,11 +22,31 @@ section {
 }
 
 h2 {
-  color: #0B3E47;
+  color: #013E48;
   font-size: 60px;
   line-height: 65px;
   font-weight: 900;
   text-transform: none;
+}
+
+h3 {
+  color: #231F20;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+p, li {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+a:link, a:visited {
+  color: #216876;
+}
+a:hover, a:active {
+  color: #013E48;
 }
 
 
@@ -44,14 +65,14 @@ Navbar Area CSS - custom
 .navbar-area .navbar .navbar-nav .nav-item a, 
 .navbar-area.is-sticky .navbar .navbar-nav .nav-item a {
     font-size: 20px;
-    color: #276474;
+    color: #2A6473;
     text-transform: uppercase;
     font-weight: 700;
   }
   
 .navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active, 
 .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a.active {
-    color: #DB2229;
+    color: #CE2026;
 }
 
 .navbar-brand img {
@@ -90,20 +111,20 @@ Banner Area CSS - custom
 }
 
 .home-sliders .home-item .main-banner-content {
-  max-width: 900px;
+  max-width: 800px;
 }
 
 
 .home-sliders .home-item .main-banner-content h1, 
 .home-sliders .home-item .main-banner-content p {
-  color: #0B3E47;
+  color: #013E48;
   font-weight: 900;
 }
 
 .home-sliders .home-item .main-banner-content h1, 
 .home-sliders .home-item .main-banner-content p {
-  font-size: 50px;
-  line-height: 55px;
+  font-size: 40px;
+  line-height: 45px;
 }
 
 @media (max-width: 991px) {
@@ -117,12 +138,12 @@ Banner Area CSS - custom
 .main-banner-content {
   background: #FFF;
   padding: 50px 60px;
-  border-radius: 60px;
+  border-radius: 35px;
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn {
   box-shadow: none;
-  background: #DB2229;
+  background: #CE2026;
   border-radius: 10px;
   color: #FFF;
   font-size: 20px;
@@ -130,10 +151,11 @@ Banner Area CSS - custom
   font-weight: 600;
   text-transform: uppercase;
   display: inline-flex;
+  text-decoration: none;
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover {
-  box-shadow: 5px 5px #0B3E47;
+  box-shadow: 5px 5px #013E48;
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn i {
@@ -153,7 +175,7 @@ Banner Area CSS - custom
 
 .home-sliders.owl-theme .owl-dots .owl-dot:hover span, .home-sliders.owl-theme .owl-dots .owl-dot.active span, 
 .home-sliders.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #DB2229;
+  background-color: #CE2026;
 }
 
 
@@ -167,7 +189,7 @@ Sections CSS - custom
   font-size: 25px;
   line-height: 25px;;
   font-weight: 600;
-  color: #0B3E47;
+  color: #013E48;
   padding: 0;
 }
 
@@ -179,6 +201,10 @@ Sections CSS - custom
 
 .schedule-list-tab .tabs li.current, .schedule-list-tab .tabs li:hover {
   background-color: #b2dcd8;
+}
+
+.schedule-list-tab .tabs li.current img, .schedule-list-tab .tabs li:hover img {
+  filter: brightness(0) invert(1);
 }
 
 .equal-widths-parent {

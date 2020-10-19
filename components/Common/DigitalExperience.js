@@ -56,41 +56,24 @@ class DigitalExperience extends Component {
 
                         <div className="tab_content">
                             <div id="tab1" className="tabs_item">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-6">
-                                        <div className="tab-content">
-                                            <h3>Real-Time Analytics</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                <div className="row">
+                                    <h3>Kwantu works with central and local governments to implement cost effective administrative data systems.</h3>
 
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>Super Responsive</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
+                                    <div className="col-lg-5">
+                                        <h2>&nbsp;</h2>
 
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>High Security</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-
-                                            <div className="tab-inner-content">
-                                                <div className="icon">
-                                                    <i className="flaticon-tick"></i>
-                                                    <h3>Optimal Choice</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <ul>
+                                            <li><a href="#">Reporting on annual performance and development plans</a></li>
+                                            <li><a href="#">Reporting on national programmes</a></li>
+                                            <li><a href="#">Tracking project milestones</a></li>
+                                            <li><a href="#">Managing support to farmers and SMEs</a></li>
+                                            <li><a href="#">Managing training to communities</a></li>
+                                        </ul>
                                     </div>
 
-                                    <div className="col-lg-6">
+                                    <div className="col-lg-7">
                                         <div className="tab-image">
-                                            <img src={require("../../images/tab.png")} alt="image" />
+                                            <img src={require("../../images/infographics/home_infographic.png")} alt="image" />
                                         </div>
                                     </div>
                                 </div>
