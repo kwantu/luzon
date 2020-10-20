@@ -62,7 +62,7 @@ class DigitalExperience extends Component {
                                     </div>
 
                                     <div className="col-lg-5">
-                                        <h2>&nbsp;</h2>
+                                       <br className="mt-5"></br>
 
                                         <ul className="red-arrow-list">
                                             <li><a href="#">Reporting on annual performance and development plans</a></li>
@@ -88,7 +88,7 @@ class DigitalExperience extends Component {
                                     </div>
 
                                     <div className="col-lg-5">
-                                        <h2>&nbsp;</h2>
+                                       <br className="mt-5"></br>
 
                                         <ul className="red-arrow-list">
                                             <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></li>
@@ -115,7 +115,7 @@ class DigitalExperience extends Component {
                                     </div>
 
                                     <div className="col-lg-5">
-                                        <h2>&nbsp;</h2>
+                                       <br className="mt-5"></br>
 
                                         <ul className="red-arrow-list">
                                             <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></li>

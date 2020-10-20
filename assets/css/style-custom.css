@@ -38,6 +38,10 @@ h2 {
   font-weight: 900;
   text-transform: none;
 }
+h2:after, .red-dot-at-end-of-text:after{
+  content: '.';
+  color: #CE2026;
+}
 
 h3 {
   color: #231F20;

@@ -45,8 +45,9 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <p className={isVisible ? "animated fadeInUp" : ''}>
-                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with technology and data to help make local development work better.
+                                                <p className={isVisible ? "animated fadeInUp red-dot-at-end-of-text" : ''}>
+                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with 
+                                                    technology and data to help make local development work better
                                                 </p>
                                                 <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
                                                     <Link href="/">
@@ -71,8 +72,9 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <p className={isVisible ? "animated fadeInUp" : ''}>
-                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with technology and data to help make local development work better.
+                                                <p className={isVisible ? "animated fadeInUp red-dot-at-end-of-text" : ''}>
+                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with 
+                                                    technology and data to help make local development work better
                                                 </p>
                                                 <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
                                                     <Link href="/">
@@ -97,8 +99,9 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <p className={isVisible ? "animated fadeInUp" : ''}>
-                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with technology and data to help make local development work better.
+                                                <p className={isVisible ? "animated fadeInUp red-dot-at-end-of-text" : ''}>
+                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with 
+                                                    technology and data to help make local development work better
                                                 </p>
                                                 <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
                                                     <Link href="/">
