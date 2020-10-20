@@ -95,9 +95,20 @@ class ServiceDevelopment extends Component {
                                     </div>
                                 </div>
 
+                                <br className="mt-5"></br>
+                                <br className="mt-5"></br>
+                                <div className="banner-btn animated fadeInUp">
+                                    <Link href="/">
+                                        <a className="default-btn">
+                                            Find out more
+                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                                        </a>
+                                    </Link>
+                                </div>
+
                             </div>
                             <div className="col-lg-4 pl-lg-5">
-                                <img src={require("../../images/white-placeholder-block.png")} alt="image" />
+                                <img src={require("../../images/stock/motherboard.jpg")} alt="image" />
                             </div>
                         </div>
                         
