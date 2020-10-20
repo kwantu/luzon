@@ -47,12 +47,17 @@ h3 {
   text-transform: none;
 }
 
-h4 {
+h4, h5 {
   color: #2A6473;
   font-size: 32px;
   line-height: 35px;
   font-weight: 700;
   text-transform: none;
+}
+
+h5 {
+  font-size: 28px;
+  line-height: 30px;
 }
 
 p, li {
@@ -322,3 +327,58 @@ Blog CSS - custom
   margin-bottom: 15px;
 }
 
+/*================================================
+Footer CSS - custom
+=================================================*/
+footer a:link, footer a:visited {
+  text-decoration: none;
+  color: #231F20;
+}
+
+.footer-section {
+  background-color: #E4E4E3;
+}
+
+.single-footer-widget .footer-social i {
+  background-color: #FFF;
+  color: #00333B;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.single-footer-widget .footer-social i:hover {
+  background-color: #00333B;
+  color: #FFF;
+}
+
+.single-footer-widget .footer-social li {
+  margin-right: 30px;
+}
+
+.subscribe-area {
+  margin-bottom: 100px;
+}
+
+.subscribe-area .newsletter-form button {
+  background-color: #A3DAD4;
+  color: #216876;
+  font-weight: 900;
+}
+
+.subscribe-area .newsletter-form .input-newsletter {
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder,
+:-ms-input-placeholder,
+::placeholder {
+  color: #A3DAD4 !important;
+}
+
+@media (max-width: 991px) {
+  .subscribe-area .newsletter-form {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
