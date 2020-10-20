@@ -26,6 +26,8 @@ class DigitalExperience extends Component {
             <section className="tab-section">
                 <div className="container">
                     <h2>Our focus areas</h2>
+                    <br className="mt-5"></br>
+                    <br className="mt-5"></br>
 
                     <div className="tab schedule-list-tab">
                         <ul className="tabs equal-widths-parent">
