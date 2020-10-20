@@ -1,33 +1,148 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 class ServiceDevelopment extends Component {
     render() {
         return (
-            <section className="development-area ptb-100 bg-mint bg-top-curve">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <h2>Our technology</h2>
-                            <h3>A low-code technology platform designed  to help local development work better</h3>
-                            <h4>Benefits include:</h4>
+            // Note to Hasan from Divvie
+            // this page contains 2 sections, the first one is a section with a bg and extra bg class
+            // the second section is just a section with 2 columns
+            // I am sure you can break these into smart components to reuse
+            <div>
+                <section className="development-area ptb-100 bg-mint bg-top-curve">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <h2>Our technology</h2>
+                                <h3>A low-code technology platform designed  to help local development work better</h3>
+                                <br className="mt-2"></br>
+                                <h4>Benefits include:</h4>
+                                <br className="mt-5"></br>
+                            </div>
+
+                        
                         </div>
 
-                        <div className="col-lg-7">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed. Lacus vestibulum sed arcu non odio. Proin nibh nisl condimentum id venenatis. Ultrices sagittis orci a scelerisque purus. Arcu dictum varius duis at consectetur lorem. Leo duis ut diam quam nulla porttitor massa. Pharetra convallis posuere morbi leo urna molestie. Sed vulputate odio ut enim blandit volutpat maecenas. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Mi quis hendrerit dolor magna eget.
+                        <div className="row">
+                            <div className="col-lg-8">
+                                <div className="row d-flex align-items-center">
+                                    <div className="col-2">
+                                        <img src={require("../../images/icons/icon1.png")} alt="image" />
+                                    </div>
+                                    <div className="col-10">
+                                        <p>Faster and more cost effective than other alternatives</p>
+                                    </div>
+                                    <div className="col-2">
+                                    </div>
+                                    <div className="col-10">
+                                        <hr></hr>
+                                    </div>
+                                </div>
 
-Sit amet risus nullam eget. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Et netus et malesuada fames ac turpis egestas. Massa eget egestas purus viverra accumsan in nisl. Mi in nulla posuere sollicitudin. Vitae suscipit tellus mauris a diam maecenas sed. Tristique senectus et netus et malesuada fames. Felis imperdiet proin fermentum leo vel orci porta. Tellus orci ac auctor augue mauris augue neque gravida. Augue lacus viverra vitae congue eu consequat ac felis donec. Arcu bibendum at varius vel pharetra vel turpis. Iaculis at erat pellentesque adipiscing.
-                            </p>
+                                <div className="row d-flex align-items-center">
+                                    <div className="col-2">
+                                        <img src={require("../../images/icons/icon2.png")} alt="image" />
+                                    </div>
+                                    <div className="col-10">
+                                        <p>All apps are online and offline capable</p>
+                                    </div>
+                                    <div className="col-2">
+                                    </div>
+                                    <div className="col-10">
+                                        <hr></hr>
+                                    </div>
+                                </div>
+
+                                <div className="row d-flex align-items-center">
+                                    <div className="col-2">
+                                        <img src={require("../../images/icons/icon3.png")} alt="image" />
+                                    </div>
+                                    <div className="col-10">
+                                        <p>A data centric architecture that provides the foundation for interoperability</p>
+                                    </div>
+                                    <div className="col-2">
+                                    </div>
+                                    <div className="col-10">
+                                        <hr></hr>
+                                    </div>
+                                </div>
+
+                                <div className="row d-flex align-items-center">
+                                    <div className="col-2">
+                                        <img src={require("../../images/icons/icon4.png")} alt="image" />
+                                    </div>
+                                    <div className="col-10">
+                                        <p>Powerful reporting, dashboards and data analysis tools are built in</p>
+                                    </div>
+                                    <div className="col-2">
+                                    </div>
+                                    <div className="col-10">
+                                        <hr></hr>
+                                    </div>
+                                </div>
+
+                                <div className="row d-flex align-items-center">
+                                    <div className="col-2">
+                                        <img src={require("../../images/icons/icon5.png")} alt="image" />
+                                    </div>
+                                    <div className="col-10">
+                                        <p>Comprehensive API to integrate with other systems and data sources</p>
+                                    </div>
+                                    <div className="col-2">
+                                    </div>
+                                    <div className="col-10">
+                                        <hr></hr>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col-lg-4 pl-lg-5">
+                                <img src={require("../../images/white-placeholder-block.png")} alt="image" />
+                            </div>
                         </div>
+                        
 
-                        <div className="col-lg-5">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed. Lacus vestibulum sed arcu non odio. Proin nibh nisl condimentum id venenatis. Ultrices sagittis orci a scelerisque purus. Arcu dictum varius duis at consectetur lorem. Leo duis ut diam quam nulla porttitor massa. Pharetra convallis posuere morbi leo urna molestie. Sed vulputate odio ut enim blandit volutpat maecenas. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Mi quis hendrerit dolor magna eget.
-
-Sit amet risus nullam eget. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Et netus et malesuada fames ac turpis egestas. Massa eget egestas purus viverra accumsan in nisl. Mi in nulla posuere sollicitudin. Vitae suscipit tellus mauris a diam maecenas sed. Tristique senectus et netus et malesuada fames. Felis imperdiet proin fermentum leo vel orci porta. Tellus orci ac auctor augue mauris augue neque gravida. Augue lacus viverra vitae congue eu consequat ac felis donec. Arcu bibendum at varius vel pharetra vel turpis. Iaculis at erat pellentesque adipiscing.
-                            </p>
-                        </div>
+                        
+                        
                     </div>
-                </div>
-            </section>
+                </section>
+
+
+
+
+
+                <section className="ptb-100">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <h2>Our approach</h2>
+                                <h4>What makes us different</h4>
+                                <br className="mt-5"></br>
+                                <p>
+                                    Kwantu has a deep understanding of programme methodologies. 
+                                    We use this to analyse new methodologies and advise on how technology and data can better improve the impact of your work.
+                                </p>
+                                <br className="mt-5"></br>
+                                    
+                                <div className="banner-btn animated fadeInUp">
+                                    <Link href="/">
+                                        <a className="default-btn">
+                                            Find out more
+                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                                        </a>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <img src={require("../../images/stock/stock-writing-with-marker.jpg")} alt="image" />
+                            </div>
+                        </div>               
+                    </div>
+                </section>
+
+            </div>
+
+                
         );
     }
 }

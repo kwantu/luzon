@@ -5,6 +5,8 @@ green: #2A6473
 light green: #216876;
 mint: #D9EFEB
 gray: #8B9EAA
+
+black - #231F20
 */
 
 /*================================================
@@ -16,9 +18,17 @@ Global CSS - custom
   }
 }
 
+h1, h2, h3, h4, h5, h6, p, li, span {
+  color: #231F20;
+}
+
 section {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+hr {
+  margin-top: 0;
 }
 
 h2 {
@@ -33,6 +43,14 @@ h3 {
   color: #231F20;
   font-size: 40px;
   line-height: 45px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+h4 {
+  color: #2A6473;
+  font-size: 32px;
+  line-height: 35px;
   font-weight: 700;
   text-transform: none;
 }
@@ -67,6 +85,27 @@ a:hover, a:active {
   background-image: url(../../images/backgrounds/bg-top-curve.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.bg-bottom-curve {
+  padding-top: 150px;
+  background-image: url(../../images/backgrounds/bg-bottom-curve.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rounded {
+  border-radius: 15px !important;
+}
+
+.rounded-top {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.rounded-bottom {
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
 }
 
 
@@ -183,24 +222,31 @@ Banner Area CSS - custom
   border-radius: 35px;
 }
 
-.home-sliders .home-item .main-banner-content .banner-btn .default-btn {
+.banner-btn .default-btn {
+  text-decoration: none;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+.home-sliders .home-item .main-banner-content .banner-btn .default-btn, .default-btn {
   box-shadow: none;
   background: #CE2026;
   border-radius: 10px;
-  color: #FFF;
+  
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
   text-transform: uppercase;
   display: inline-flex;
-  text-decoration: none;
+  
 }
 
-.home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover {
+.home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover, .default-btn:hover {
   box-shadow: 5px 5px #013E48;
+  background: #CE2026;
 }
 
-.home-sliders .home-item .main-banner-content .banner-btn .default-btn i {
+.home-sliders .home-item .main-banner-content .banner-btn .default-btn i, .default-btn i {
   font-size: 25px;
   line-height: 30px;
   margin-left: 20px;
@@ -263,9 +309,16 @@ Sections CSS - custom
 
 .equal-widths-parent > * {
   flex: 1;
-  /* display: inline-flex; */
 }
-/* 
-.equal-widths-parent > * > * {
-  flex: 1;
-} */
+
+
+/*================================================
+Blog CSS - custom
+=================================================*/
+.single-blog .content span {
+  font-size: 18px;
+  color: #013E48;
+  display: block;
+  margin-bottom: 15px;
+}
+

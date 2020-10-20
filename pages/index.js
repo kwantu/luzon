@@ -6,7 +6,6 @@ import BlogPost from '../components/Common/BlogPost';
 import DigitalExperience from '../components/Common/DigitalExperience';
 import BannerSlider from '../components/HomeOne/BannerSlider';
 import ServiceDevelopment from '../components/HomeOne/ServiceDevelopment';
-import Banner from '../components/HomeThree/Banner';
 
 class Index extends Component {
     render() {
@@ -16,7 +15,6 @@ class Index extends Component {
                 <BannerSlider />
                 <DigitalExperience />
                 <ServiceDevelopment />
-                <Banner />
                 <BlogPost />
                 <Footer />
             </React.Fragment>
