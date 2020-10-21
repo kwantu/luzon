@@ -33,8 +33,8 @@ hr {
 
 h2 {
   color: #013E48;
-  font-size: 60px;
-  line-height: 65px;
+  font-size: 55px;
+  line-height: 50px;
   font-weight: 900;
   text-transform: none;
 }
@@ -45,28 +45,28 @@ h2:after, .red-dot-at-end-of-text:after{
 
 h3 {
   color: #231F20;
-  font-size: 40px;
-  line-height: 45px;
+  font-size: 35px;
+  line-height: 40px;
   font-weight: 700;
   text-transform: none;
 }
 
 h4, h5 {
   color: #2A6473;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 35px;
   font-weight: 700;
   text-transform: none;
 }
 
 h5 {
-  font-size: 28px;
+  font-size: 25px;
   line-height: 30px;
 }
 
 p, li {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 ul.red-arrow-list li {
@@ -150,11 +150,30 @@ Navbar Area CSS - custom
 
 .navbar-area .navbar .navbar-nav .nav-item a, 
 .navbar-area.is-sticky .navbar .navbar-nav .nav-item a {
-    font-size: 20px;
+    font-size: 18px;
     color: #2A6473;
     text-transform: uppercase;
     font-weight: 700;
+    padding: 0;
+}
+
+@media (max-width: 991px){
+  .navbar-area .navbar .navbar-nav .nav-item a, 
+  .navbar-area.is-sticky .navbar .navbar-nav .nav-item a {
+      padding: 10px 0;
   }
+  .navbar-area .navbar .navbar-nav .nav-item a, .navbar-area .navbar .navbar-nav .nav-item:first-child a {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+
+@media (max-width:1250px) {
+  .navbar-area .navbar .navbar-nav .nav-item a, 
+  .navbar-area.is-sticky .navbar .navbar-nav .nav-item a {
+    font-size: 15px;
+  }
+}
   
 .navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active, 
 .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a.active {
@@ -213,15 +232,15 @@ Banner Area CSS - custom
 
 .home-sliders .home-item .main-banner-content h1, 
 .home-sliders .home-item .main-banner-content p {
-  font-size: 40px;
-  line-height: 45px;
+  font-size: 32px;
+  line-height: 37px;
 }
 
 @media (max-width: 991px) {
   .home-sliders .home-item .main-banner-content h1, 
   .home-sliders .home-item .main-banner-content p {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 28px;
+    line-height: 33px;
   }
 }
 
@@ -283,7 +302,7 @@ Sections CSS - custom
   max-width: 150px;
 }
 .schedule-list-tab .tabs li span{
-  font-size: 25px;
+  font-size: 22px;
   line-height: 25px;;
   font-weight: 600;
   color: #013E48;
@@ -291,8 +310,8 @@ Sections CSS - custom
 }
 @media (max-width: 991px) {
   .schedule-list-tab .tabs li span {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 17px;
+    line-height: 20px;
   }
 }
 

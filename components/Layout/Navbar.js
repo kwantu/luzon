@@ -61,8 +61,8 @@ class Navbar extends Component {
         return (
             <React.Fragment>
                <div id="navbar" className="navbar-area fixed-top bg-white">
-                    <nav className="navbar navbar-expand-md">
-                        <div className="container">
+                    <nav className="navbar navbar-expand-lg">
+                        <div className="container d-flex align-items-end">
                             <Link href="/">
                                 <a className="navbar-brand">
                                     <img src={require("../../images/logo.png")} alt="logo" />
