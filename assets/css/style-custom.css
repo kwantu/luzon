@@ -270,8 +270,9 @@ Banner Area CSS - custom
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover, .default-btn:hover {
-  box-shadow: 5px 5px #013E48;
-  background: #CE2026;
+  box-shadow: none;
+  color: #CE2026;
+  background: #013E48;
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn i, .default-btn i {
