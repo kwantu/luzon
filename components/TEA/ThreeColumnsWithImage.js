@@ -3,10 +3,14 @@ import Link from 'next/link';
 
 class ThreeColumnsWithImage extends Component {
     render() {
+
+        let { classesToAddToSection } = this.props;
+
+
         return (
             
             <div>
-                <section className="ptb-100">
+                <section className={ "ptb-100 " + ( this.props.classesToAddToSection ) }>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4">
