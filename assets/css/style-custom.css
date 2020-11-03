@@ -5,8 +5,8 @@ green: #2A6473
 light green: #216876;
 mint: #D9EFEB
 gray: #8B9EAA
-
 black - #231F20
+blue - #D8EEEC
 */
 
 /*================================================
@@ -31,7 +31,7 @@ hr {
   margin-top: 0;
 }
 
-h2 {
+h2, .page-title-content h2 {
   color: #013E48;
   font-size: 55px;
   line-height: 50px;
@@ -295,6 +295,28 @@ Banner Area CSS - custom
   background-color: #CE2026;
 }
 
+/*================================================
+Page Banner CSS - custom
+=================================================*/
+
+.page-title-area {
+  position: relative;
+  z-index: 1;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 425px;
+  background-attachment: fixed;
+}
+
+.page-title-area::before {
+  opacity: 0;
+}
+
+.page-title-area {
+  background-color: #D8EEEC;
+  margin-top: 35px;
+}
 
 /*================================================
 Sections CSS - custom
