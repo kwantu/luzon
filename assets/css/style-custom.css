@@ -362,6 +362,23 @@ Sections CSS - custom
   flex: 1;
 }
 
+/*================================================
+Tabs CSS - custom
+=================================================*/
+.tabs-red li {
+  list-style: none;
+  max-width: 80%;
+  border-bottom: 2px solid #2A6473;
+  min-height: 150px;
+}
+
+.tabs-red li.current {
+  border-bottom-color: #CE2026;
+}
+
+.tabs-red li.current, .tabs-red li.current > * {
+  color: #CE2026;
+}
 
 /*================================================
 Blog CSS - custom
