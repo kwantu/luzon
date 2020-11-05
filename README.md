@@ -12,3 +12,6 @@
 * then: git push
 
 # notes from Divvie to Hasan
+* All the components I have created/used/modified are located in /components/TEA [and I have reset the original /components as they were]
+* Images: I have added and changed lots of files in /images
+* CSS: I have also used the /css/style-custom.css file to add our TEA styles
