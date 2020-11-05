@@ -436,6 +436,26 @@ Blog CSS - custom
   margin-bottom: 15px;
 }
 
+.pagination-area .page-numbers {
+  color: #2A6473;
+  box-shadow: 0 2px 10px 0 #E4E4E3;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
+  background: #2A6473;
+  color: #ffffff;
+}
+.pagination-area a {
+  text-decoration: none;
+}
+
 /*================================================
 Footer CSS - custom
 =================================================*/
