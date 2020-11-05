@@ -102,8 +102,31 @@ class Navbar extends Component {
                                     </li>
                                     <li className="nav-item">
                                         <Link href="/focus-areas" activeClassName="active">
-                                            <a className="nav-link">Focus Areas</a>
+                                            <a className="nav-link">
+                                                Focus Areas
+                                                <i className='bx bx-chevron-down'></i>
+                                            </a>
                                         </Link>
+
+                                        <ul className="dropdown-menu">
+                                            <li className="nav-item">
+                                                <Link href="/" activeClassName="active">
+                                                    <a className="nav-link">Lorem ipsum dolor sit amet</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/" activeClassName="active">
+                                                    <a className="nav-link">Lorem ipsum dolor sit amet</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/" activeClassName="active">
+                                                    <a className="nav-link">Lorem ipsum dolor sit amet</a>
+                                                </Link>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li className="nav-item">
                                         <Link href="/blog" activeClassName="active">

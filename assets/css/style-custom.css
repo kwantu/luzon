@@ -18,6 +18,10 @@ Global CSS - custom
   }
 }
 
+a {
+  color: #2A6473;
+}
+
 h1, h2, h3, h4, h5, h6, p, li, span {
   color: #231F20;
 }
@@ -182,6 +186,41 @@ Navbar Area CSS - custom
 
 .navbar-toggler .icon-bar {
   background-color: #CE2026;
+}
+
+.navbar-area .navbar .navbar-nav .nav-item a i {
+  font-size: 40px;
+  top: 8px;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 0;
+  color: #CE2026;
+}
+
+.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+@media (max-width:1250px) {
+  .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a  {
+    font-size: 14px;
+  }
+}
+
+.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #2A6473;
+  /* set this to 0 if you dont want the dropdown menu li to enlarge on hover */
+  /*letter-spacing: 0px;*/ 
+}
+.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a:hover {
+  color: #CE2026;
+}
+
+@media (max-width:991px) {
+  .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu {
+    width: 95%;
+  }
 }
 
 .navbar-brand img {
