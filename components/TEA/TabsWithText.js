@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class KeyFeatures extends Component {
+class TabsWithText extends Component {
     // Tab
     openTabSection = (evt, tabNmae) => {
         let i, tabcontent, tablinks;
@@ -203,4 +203,4 @@ class KeyFeatures extends Component {
     }
 }
 
-export default KeyFeatures;
+export default TabsWithText;

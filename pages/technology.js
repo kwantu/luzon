@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import Navbar from '../components/Layout/Navbar';
-import Footer from '../components/Layout/Footer';
-import PageBanner from '../components/Common/PageBanner';
+import Navbar from '../components/TEA/Navbar';
+import PageBanner from '../components/TEA/PageBanner';
 import TwoColumnsWithImage from '../components/TEA/TwoColumnsWithImage';
-import KeyFeatures from '../components/TEA/KeyFeatures';
+import TabsWithText from '../components/TEA/TabsWithText';
+import Footer from '../components/TEA/Footer';
 
 class Index extends Component {
     render() {
@@ -15,7 +15,7 @@ class Index extends Component {
                     pageTitle="Technology" 
                 /> 
                 <TwoColumnsWithImage/>
-                <KeyFeatures
+                <TabsWithText
                     classesToAddToSection="bg-mint bg-bottom-curve"
                 />
                 <Footer />

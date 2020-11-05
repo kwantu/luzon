@@ -321,6 +321,21 @@ Page Banner CSS - custom
 /*================================================
 Sections CSS - custom
 =================================================*/
+
+.equal-widths-parent {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.equal-widths-parent > * {
+  flex: 1;
+}
+
+/*================================================
+Tabs CSS - custom
+=================================================*/
+/* ==== tabs with icons ==== */
 .home-tab-icon {
   max-width: 150px;
 }
@@ -348,23 +363,15 @@ Sections CSS - custom
   background-color: #b2dcd8;
 }
 
+.schedule-list-tab .tabs li.current.dark, .schedule-list-tab .tabs li.dark:hover {
+  background-color: #013E48;
+}
+
 .schedule-list-tab .tabs li.current img, .schedule-list-tab .tabs li:hover img {
   filter: brightness(0) invert(1);
 }
 
-.equal-widths-parent {
-  display: flex;
-  width: 100%;
-  flex-flow: row wrap;
-}
-
-.equal-widths-parent > * {
-  flex: 1;
-}
-
-/*================================================
-Tabs CSS - custom
-=================================================*/
+/* ==== tabs with text only ==== */
 .tabs-red li {
   list-style: none;
   max-width: 80%;

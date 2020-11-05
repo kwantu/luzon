@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import Navbar from '../components/Layout/Navbar';
-import Footer from '../components/Layout/Footer';
-import BlogPost from '../components/Common/BlogPost';
-import DigitalExperience from '../components/Common/DigitalExperience';
-import BannerSlider from '../components/HomeOne/BannerSlider';
-import ServiceDevelopment from '../components/HomeOne/ServiceDevelopment';
+import Navbar from '../components/TEA/Navbar';
+import BannerSlider from '../components/TEA/BannerSlider';
+import TabsWithIcons from '../components/TEA/TabsWithIcons';
+import TwoByThreeAlternative from '../components/TEA/TwoByThreeAlternative';
+import BlogPost from '../components/TEA/BlogPost';
+import Footer from '../components/TEA/Footer';
 
 class Index extends Component {
     render() {
@@ -13,8 +13,13 @@ class Index extends Component {
             <React.Fragment>
                 <Navbar />
                 <BannerSlider />
-                <DigitalExperience />
-                <ServiceDevelopment />
+                <TabsWithIcons 
+                    classesToAddToSection=""
+                    tabHoverStyle=""
+                />
+                <TwoByThreeAlternative 
+                    classesToAddToSection="bg-mint bg-top-curve"
+                />
                 <BlogPost />
                 <Footer />
             </React.Fragment>

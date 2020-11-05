@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import Navbar from '../components/TEA/Navbar';
 import PageBanner from '../components/TEA/PageBanner';
-import ThreeColumnsWithImage from '../components/TEA/ThreeColumnsWithImage';
-import TwoByThreeColumnsWithImage from '../components/TEA/TwoByThreeColumnsWithImage';
+import OneByThreeWithImage from '../components/TEA/OneByThreeWithImage';
+import TabsWithIconsClone from '../components/TEA/TabsWithIconsClone';
 import Footer from '../components/TEA/Footer';
 
 class Index extends Component {
@@ -12,11 +12,12 @@ class Index extends Component {
             <React.Fragment>
                 <Navbar />
                 <PageBanner 
-                    pageTitle="Our Approach" 
+                    pageTitle="Our focus areas" 
                 /> 
-                <ThreeColumnsWithImage/>
-                <TwoByThreeColumnsWithImage
+                <OneByThreeWithImage/>
+                <TabsWithIconsClone
                     classesToAddToSection="bg-mint bg-bottom-curve"
+                    tabHoverStyle="dark"
                 />
                 <Footer />
             </React.Fragment>
