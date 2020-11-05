@@ -650,6 +650,10 @@ footer a:link, footer a:visited {
 
 .single-footer-widget .footer-social,
 .article-share .footer-social {
+  text-align: right;
+}
+
+.article-share .footer-social li {
   text-align: center;
 }
 
@@ -666,6 +670,17 @@ footer a:link, footer a:visited {
   border-radius: 5px;
   font-size: 20px;
   transition: 0.5s;
+}
+
+.article-share .footer-social li:last-child i{
+  margin-right: 0px;
+}
+
+@media (max-width: 991px){
+  .single-footer-widget .footer-social i, 
+  .article-share .footer-social i { 
+    margin-right: 10px;
+  }
 }
 
 .single-footer-widget .footer-social i:hover {
