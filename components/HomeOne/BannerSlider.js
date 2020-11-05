@@ -7,7 +7,7 @@ const OwlCarousel = dynamic(import('react-owl-carousel3'));
 const options = {
     loop: true,
     margin: 0,
-    nav: false,
+    nav: true,
     mouseDrag: true,
     items: 1,
     dots: true,
@@ -37,7 +37,6 @@ class BannerSlider extends Component {
                     className="home-sliders owl-carousel owl-theme"
                     {...options}
                 >
-                    
                     <div className="home-item item-bg1">
                         <div className="d-table">
                             <div className="d-table-cell">
@@ -45,18 +44,40 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <p className={isVisible ? "animated fadeInUp red-dot-at-end-of-text" : ''}>
-                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with 
-                                                    technology and data to help make local development work better
+                                                <h1
+                                                    className={
+                                                        isVisible ? "animated fadeInUp" : ''
+                                                    }
+                                                >
+                                                    Make Real-Life Connections With IT
+                                                </h1>
+
+                                                <p
+                                                    className={
+                                                        isVisible ? "animated fadeInUp" : ''
+                                                    }
+                                                >
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.
                                                 </p>
-                                                <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
-                                                    <Link href="/">
-                                                        <a className="default-btn">
-                                                            Find Out More
-                                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                                        </a>
+                                                
+                                                <div 
+                                                    className={
+                                                        `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+                                                    }
+                                                >
+                                                    <Link href="/contact">
+                                                        <a className="default-btn">Get Started</a>
                                                     </Link>
                                                 </div>
+                                            </div>
+                                            
+                                            <div 
+                                                className={
+                                                    `banner-image ${isVisible ? "animated fadeInUp" : ''}`
+                                                }
+                                            >
+                                                <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
+                                                <img src={require("../../images/home-one/home-1-img1.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}
@@ -72,18 +93,40 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <p className={isVisible ? "animated fadeInUp red-dot-at-end-of-text" : ''}>
-                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with 
-                                                    technology and data to help make local development work better
+                                                <h1
+                                                    className={
+                                                        isVisible ? "animated fadeInUp" : ''
+                                                    }
+                                                >
+                                                    Software & Development
+                                                </h1>
+
+                                                <p
+                                                    className={
+                                                        isVisible ? "animated fadeInUp" : ''
+                                                    }
+                                                >
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.
                                                 </p>
-                                                <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
-                                                    <Link href="/">
-                                                        <a className="default-btn">
-                                                            Button Two
-                                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                                        </a>
+                                                
+                                                <div 
+                                                    className={
+                                                        `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+                                                    }
+                                                >
+                                                    <Link href="/contact">
+                                                        <a className="default-btn">Get Started</a>
                                                     </Link>
                                                 </div>
+                                            </div>
+                                            
+                                            <div 
+                                                className={
+                                                    `banner-image ${isVisible ? "animated fadeInUp" : ''}`
+                                                }
+                                            >
+                                                <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
+                                                <img src={require("../../images/home-one/home-1-img2.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}
@@ -99,18 +142,40 @@ class BannerSlider extends Component {
                                     {({ isVisible }) => (
                                         <div className="container mt-50">
                                             <div className="main-banner-content">
-                                                <p className={isVisible ? "animated fadeInUp red-dot-at-end-of-text" : ''}>
-                                                    Kwantu is a social exterprise that combines our experience of programme methodologies with 
-                                                    technology and data to help make local development work better
+                                                <h1
+                                                    className={
+                                                        isVisible ? "animated fadeInUp" : ''
+                                                    }
+                                                >
+                                                    Digital Agency & Marketing
+                                                </h1>
+
+                                                <p
+                                                    className={
+                                                        isVisible ? "animated fadeInUp" : ''
+                                                    }
+                                                >
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.
                                                 </p>
-                                                <div className={`banner-btn ${isVisible ? "animated fadeInUp" : ''}`}>
-                                                    <Link href="/">
-                                                        <a className="default-btn">
-                                                            Button Three
-                                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                                        </a>
+                                                
+                                                <div 
+                                                    className={
+                                                        `banner-btn ${isVisible ? "animated fadeInUp" : ''}`
+                                                    }
+                                                >
+                                                    <Link href="/contact">
+                                                        <a className="default-btn">Get Started</a>
                                                     </Link>
                                                 </div>
+                                            </div>
+                                            
+                                            <div 
+                                                className={
+                                                    `banner-image ${isVisible ? "animated fadeInUp" : ''}`
+                                                }
+                                            >
+                                                <img src={require("../../images/home-one/home-1-shape.png")} alt="Image" />
+                                                <img src={require("../../images/home-one/home-1-img3.png")} className="banner-img" alt="image" />
                                             </div>
                                         </div>
                                     )}
@@ -118,7 +183,6 @@ class BannerSlider extends Component {
                             </div>
                         </div>
                     </div>
-
                 </OwlCarousel> : ''}
             </div>
         );

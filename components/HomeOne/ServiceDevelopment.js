@@ -1,159 +1,59 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
 
 class ServiceDevelopment extends Component {
     render() {
         return (
-            // Note to Hasan from Divvie
-            // this page contains 2 sections, the first one is a section with a bg and extra bg class
-            // the second section is just a section with 2 columns
-            // I am sure you can break these into smart components to reuse
-            <div>
-                <section className="development-area ptb-100 bg-mint bg-top-curve">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <h2>Our technology</h2>
-                                <h3>A low-code technology platform designed  to help local development work better</h3>
-                                <br className="mt-2"></br>
-                                <h4>Benefits include:</h4>
-                                <br className="mt-5"></br>
-                            </div>
-
-                        
-                        </div>
-
-                        <div className="row">
-                            <div className="col-lg-8">
-                                <div className="row d-flex align-items-center">
-                                    <div className="col-2">
-                                        <img src={require("../../images/icons/icon1.png")} alt="image" />
-                                    </div>
-                                    <div className="col-10">
-                                        <p>Faster and more cost effective than other alternatives</p>
-                                    </div>
-                                    <div className="col-2">
-                                    </div>
-                                    <div className="col-10">
-                                        <hr></hr>
-                                    </div>
-                                </div>
-
-                                <div className="row d-flex align-items-center">
-                                    <div className="col-2">
-                                        <img src={require("../../images/icons/icon2.png")} alt="image" />
-                                    </div>
-                                    <div className="col-10">
-                                        <p>All apps are online and offline capable</p>
-                                    </div>
-                                    <div className="col-2">
-                                    </div>
-                                    <div className="col-10">
-                                        <hr></hr>
-                                    </div>
-                                </div>
-
-                                <div className="row d-flex align-items-center">
-                                    <div className="col-2">
-                                        <img src={require("../../images/icons/icon3.png")} alt="image" />
-                                    </div>
-                                    <div className="col-10">
-                                        <p>A data centric architecture that provides the foundation for interoperability</p>
-                                    </div>
-                                    <div className="col-2">
-                                    </div>
-                                    <div className="col-10">
-                                        <hr></hr>
-                                    </div>
-                                </div>
-
-                                <div className="row d-flex align-items-center">
-                                    <div className="col-2">
-                                        <img src={require("../../images/icons/icon4.png")} alt="image" />
-                                    </div>
-                                    <div className="col-10">
-                                        <p>Powerful reporting, dashboards and data analysis tools are built in</p>
-                                    </div>
-                                    <div className="col-2">
-                                    </div>
-                                    <div className="col-10">
-                                        <hr></hr>
-                                    </div>
-                                </div>
-
-                                <div className="row d-flex align-items-center">
-                                    <div className="col-2">
-                                        <img src={require("../../images/icons/icon5.png")} alt="image" />
-                                    </div>
-                                    <div className="col-10">
-                                        <p>Comprehensive API to integrate with other systems and data sources</p>
-                                    </div>
-                                    <div className="col-2">
-                                    </div>
-                                    <div className="col-10">
-                                        <hr></hr>
-                                    </div>
-                                </div>
-
-                                <br className="mt-5"></br>
-                                <br className="mt-5"></br>
-                                <div className="banner-btn animated fadeInUp">
-                                    <Link href="/">
-                                        <a className="default-btn">
-                                            Find out more
-                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-
-                            </div>
-                            <div className="col-lg-4 pl-lg-5">
-                                <img src={require("../../images/stock/motherboard.jpg")} alt="image" />
+            <section className="development-area ptb-100">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className="development-image">
+                                <img src={require("../../images/development.png")} alt="image" />
                             </div>
                         </div>
-                        
 
-                        
-                        
-                    </div>
-                </section>
+                        <div className="col-lg-6">
+                            <div className="development-text">
+                                <h3>Web & Mobile <span>Development</span></h3>
+                                <div className="bar"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
+                            </div>
 
-
-
-
-
-                <section className="ptb-100">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <h2>Our approach</h2>
-                                <h4>What makes us different</h4>
-                                <br className="mt-5"></br>
-                                <p>
-                                    Kwantu has a deep understanding of programme methodologies. 
-                                    We use this to analyse new methodologies and advise on how technology and data can better improve the impact of your work.
-                                </p>
-                                <br className="mt-5"></br>
-                                    
-                                <div className="banner-btn animated fadeInUp">
-                                    <Link href="/">
-                                        <a className="default-btn">
-                                            Find out more
-                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                        </a>
-                                    </Link>
+                            <div className="development-content">
+                                <div className="icon">
+                                    <i className="flaticon-blog"></i>
                                 </div>
+                                <h3>UI/UX Design</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                             </div>
-                            <div className="col-lg-6">
-                                <img src={require("../../images/stock/stock-writing-with-marker.jpg")} alt="image" />
+
+                            <div className="development-content">
+                                <div className="icon bg-05dbcf">
+                                    <i className="flaticon-setting"></i>
+                                </div>
+                                <h3>Web Development</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                             </div>
-                        </div>               
+
+                            <div className="development-content">
+                                <div className="icon bg-fec66f">
+                                    <i className="flaticon-cellphone"></i>
+                                </div>
+                                <h3>Mobile Development</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            </div>
+
+                            <div className="development-content">
+                                <div className="icon bg-66a6ff">
+                                    <i className="flaticon-devices"></i>
+                                </div>
+                                <h3>Responsive Design</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            </div>
+                        </div>
                     </div>
-                </section>
-
-            </div>
-
-                
+                </div>
+            </section>
         );
     }
 }

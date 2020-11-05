@@ -4,99 +4,92 @@ import Link from 'next/link';
 class BlogPost extends Component {
     render() {
         return (
-                <section className="development-area ptb-100 bg-mint bg-bottom-curve">
+            <section className="blog-section pt-100 pb-70">
                 <div className="container">
-                    <div className="row">
-                            <div className="col-lg-12">
-                                <h2 className="text-center">Learn more about how we work</h2> 
-                                <br className="mt-5"></br>
-                                <br className="mt-5"></br>
-                                <br className="mt-5"></br>
-                            </div>
-                        </div>
+                    <div className="section-title">
+                        <h2>Our <span>Latest</span> News</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <div className="bar"></div>
+                    </div>
 
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 px-4">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-blog">
                                 <div className="image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img className="rounded-top" src={require("../../images/stock/stock-laptop.jpg")} alt="image" />
+                                            <img src={require("../../images/blog/blog1.jpg")} alt="image" />
                                         </a>
                                     </Link>
                                 </div>
 
-                                <div className="content bg-white">
-                                    <span>20 January 2021</span>
-                                    <h4>Lorem ipsum dolor sit</h4>
-                                    <p>amet, consectetur adipiscing elit sed do eiusmod tempor ...</p>
+                                <div className="content">
+                                    <span>20 April 2020</span>
+                                    <h3>
+                                        <Link href="/blog-details">
+                                            <a>Great Tips To Earn More Money From Digital Industry</a>
+                                        </Link>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
 
-                                </div>
-                                <div className="banner-btn animated fadeInUp">
-                                    <Link href="/">
-                                        <a className="default-btn w-100 rounded-0 rounded-bottom d-block text-center">
-                                            Find out more
-                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                        </a>
+                                    <Link href="/blog-details">
+                                        <a className="read-more">Read More</a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 px-4">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-blog">
                                 <div className="image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img className="rounded-top" src={require("../../images/stock/stock-laptop.jpg")} alt="image" />
+                                            <img src={require("../../images/blog/blog2.jpg")} alt="image" />
                                         </a>
                                     </Link>
                                 </div>
 
-                                <div className="content bg-white">
-                                    <span>20 January 2021</span>
-                                    <h4>Lorem ipsum dolor sit</h4>
-                                    <p>amet, consectetur adipiscing elit sed do eiusmod tempor ...</p>
-
-                                </div>
-                                <div className="banner-btn animated fadeInUp">
-                                    <Link href="/">
-                                        <a className="default-btn w-100 rounded-0 rounded-bottom d-block text-center">
-                                            Find out more
-                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                        </a>
+                                <div className="content">
+                                    <span>21 April 2020</span>
+                                    <h3>
+                                        <Link href="/blog-details">
+                                            <a>The Billionaire Guide On Design That will Get You Rich</a>
+                                        </Link>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
+                                    
+                                    <Link href="/blog-details">
+                                        <a className="read-more">Read More</a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 px-4">
+                        <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                             <div className="single-blog">
                                 <div className="image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img className="rounded-top" src={require("../../images/stock/stock-laptop.jpg")} alt="image" />
+                                            <img src={require("../../images/blog/blog3.jpg")} alt="image" />
                                         </a>
                                     </Link>
                                 </div>
 
-                                <div className="content bg-white">
-                                    <span>20 January 2021</span>
-                                    <h4>Lorem ipsum dolor sit</h4>
-                                    <p>amet, consectetur adipiscing elit sed do eiusmod tempor ...</p>
-
-                                </div>
-                                <div className="banner-btn animated fadeInUp">
-                                    <Link href="/">
-                                        <a className="default-btn w-100 rounded-0 rounded-bottom d-block text-center">
-                                            Find out more
-                                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                                        </a>
+                                <div className="content">
+                                    <span>22 April 2020</span>
+                                    <h3>
+                                        <Link href="/blog-details">
+                                            <a>Making Peace With The Feast Or Famine Of Freelancing</a>
+                                        </Link>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
+                                    
+                                    <Link href="/blog-details">
+                                        <a className="read-more">Read More</a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
