@@ -40,8 +40,8 @@ class TabsWithIconsClone extends Component {
                         <ul className="tabs equal-widths-parent">
                             <div>
                                 <li className={ "current " + ( this.props.tabHoverStyle ) } onClick={(e) => this.openTabSection(e, 'tab1')}> 
-                                    <img className="home-tab-icon" src={require("../../images/icons/government.png")} alt="image" />
-                                    <span className="home-tab-text">Government</span>
+                                    <img className="home-tab-icon" src={require("../../images/icons/strategic_performance-reporting.png")} alt="image" />
+                                    <span className="home-tab-text">Strategic performance <br></br>and reporting</span>
                                 </li>
                             </div>
                             

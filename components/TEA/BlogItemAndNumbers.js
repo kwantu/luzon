@@ -18,7 +18,7 @@ class BlogItemAndNumbers extends Component {
                 <div className="col-lg-4 col-md-6 px-4">
                     <div className="single-blog">
                         <div className="image">
-                            <Link href="/blog-details">
+                            <Link href="/our-blog-single">
                                 <a>
                                     <img className="rounded-top" src={require("../../images/stock/stock-laptop.jpg")} alt="image" />
                                 </a>
@@ -32,7 +32,7 @@ class BlogItemAndNumbers extends Component {
 
                         </div>
                         <div className="banner-btn animated fadeInUp">
-                            <Link href="/">
+                            <Link href="/our-blog-single">
                                 <a className="default-btn w-100 rounded-0 rounded-bottom d-block text-center">
                                     Find out more
                                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
@@ -45,7 +45,7 @@ class BlogItemAndNumbers extends Component {
                 <div className="col-lg-4 col-md-6 px-4">
                     <div className="single-blog">
                         <div className="image">
-                            <Link href="/blog-details">
+                            <Link href="/our-blog-single">
                                 <a>
                                     <img className="rounded-top" src={require("../../images/stock/stock-laptop.jpg")} alt="image" />
                                 </a>
@@ -59,7 +59,7 @@ class BlogItemAndNumbers extends Component {
 
                         </div>
                         <div className="banner-btn animated fadeInUp">
-                            <Link href="/">
+                            <Link href="/our-blog-single">
                                 <a className="default-btn w-100 rounded-0 rounded-bottom d-block text-center">
                                     Find out more
                                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
@@ -72,7 +72,7 @@ class BlogItemAndNumbers extends Component {
                 <div className="col-lg-4 col-md-6 px-4">
                     <div className="single-blog">
                         <div className="image">
-                            <Link href="/blog-details">
+                            <Link href="/our-blog-single">
                                 <a>
                                     <img className="rounded-top" src={require("../../images/stock/stock-laptop.jpg")} alt="image" />
                                 </a>
@@ -86,7 +86,7 @@ class BlogItemAndNumbers extends Component {
 
                         </div>
                         <div className="banner-btn animated fadeInUp">
-                            <Link href="/">
+                            <Link href="/our-blog-single">
                                 <a className="default-btn w-100 rounded-0 rounded-bottom d-block text-center">
                                     Find out more
                                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
@@ -98,7 +98,7 @@ class BlogItemAndNumbers extends Component {
 
 
 
-
+                {/* Blog Pagination */}
 
                 <BlogPagination/>
 

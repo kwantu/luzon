@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import FooterIcons from './FooterIcons';
 
 class Footer extends Component {
     render() {
         let currentYear = new Date().getFullYear();
+
         return (
             <React.Fragment>
                 <footer className="footer-section ptb-100">
@@ -27,37 +29,8 @@ class Footer extends Component {
                             <div className="col-sm-4">
                                 <div className="single-footer-widget">
                   
-                                    <ul className="footer-social">
-                                    <li>
-                                            <Link href="#">
-                                                <a target="_blank">
-                                                    <i className="flaticon-instagram"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">
-                                                <a target="_blank">
-                                                    <i className="flaticon-facebook"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">
-                                                <a target="_blank">
-                                                    <i className="flaticon-twitter"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">
-                                                <a target="_blank">
-                                                    <i className="flaticon-phone-call"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        
-                                    </ul>
+                                    <FooterIcons/>
+
                                 </div>
                             </div>
 
