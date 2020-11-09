@@ -210,8 +210,7 @@ Navbar Area CSS - custom
 
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #2A6473;
-  /* set this to 0 if you dont want the dropdown menu li to enlarge on hover */
-  /*letter-spacing: 0px;*/ 
+  letter-spacing: 0px; 
 }
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a:hover {
   color: #CE2026;
@@ -417,7 +416,7 @@ Tabs CSS - custom
 .schedule-list-tab .tabs li {
   background-color: #f8f8f8;
   min-width: 70%;
-  height: 220px;
+  min-height: 220px;
 }
 
 .schedule-list-tab .tabs li.current, .schedule-list-tab .tabs li:hover {
@@ -430,6 +429,15 @@ Tabs CSS - custom
 
 .schedule-list-tab .tabs li.current img, .schedule-list-tab .tabs li:hover img {
   filter: brightness(0) invert(1);
+}
+
+.schedule-list-tab .tabs li span.product-tab-text {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.product-tabs li {
+  padding: 40px;
 }
 
 /* ==== tabs with text only ==== */
@@ -448,12 +456,24 @@ Tabs CSS - custom
   color: #CE2026;
 }
 
-.tabs-red.height-150 li {
-  min-height: 150px;
+.tabs-with-margin div{
+  margin-right: 30px !important;
 }
 
-.tabs-red.height-250 li {
-  min-height: 250px;
+.tabs-with-margin div:last-child{
+  margin-right: 0px !important;
+}
+
+.height-150 li {
+  height: 150px;
+}
+
+.height-250 li {
+  height: 250px;
+}
+
+.height-350 li {
+  height: 350px;
 }
 
 /*================================================

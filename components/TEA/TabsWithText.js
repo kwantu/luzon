@@ -24,7 +24,7 @@ class TabsWithText extends Component {
     render() {
         
 
-        let { classesToAddToSection, classesToAddToRedList } = this.props;
+        let { classesToAddToSection, heightClassForList } = this.props;
 
         return (
             
@@ -47,7 +47,7 @@ class TabsWithText extends Component {
                     <div className="container">
 
                         <div className="tab schedule-list-tab">
-                            <ul className={"tabs-red equal-widths-parent px-0 " + ( this.props.classesToAddToRedList )}>
+                            <ul className={"tabs-red equal-widths-parent px-0 " + ( this.props.classesToAddToTabsUL )}>
                                 <div>
                                     <li className="current" onClick={(e) => this.openTabSection(e, 'tab1')}> 
                                         <h5>1. Create and distribute apps without coding</h5>
