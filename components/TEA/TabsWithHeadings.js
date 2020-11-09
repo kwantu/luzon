@@ -7,6 +7,7 @@ import Link from 'next/link';
 // and with the class 'product-tabs' added to the tabs ul
 // and icon removed
 // and in the page that contains this component 'focus-areas.js', I sent the 'dark' prop
+// and a h2 added to top of page 'Key Benefits'
 // so some work would be required to make it dynamic, else just use as is
 
 class TabsWithHeadings extends Component {
@@ -37,6 +38,10 @@ class TabsWithHeadings extends Component {
         return (
             <section className={ "tab-section ptb-100 " + ( this.props.classesToAddToSection ) }> 
                 <div className="container">
+
+                    <h2>Key Benefits</h2>
+                    <br className="mt-5"></br>
+                    <br className="mt-5"></br>
 
                     <div className="tab schedule-list-tab">
                         <ul className={"tabs equal-widths-parent px-0 " + ( this.props.classesToAddToTabsUL )}>
