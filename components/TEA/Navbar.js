@@ -62,7 +62,7 @@ class Navbar extends Component {
             <React.Fragment>
                <div id="navbar" className="navbar-area fixed-top bg-white">
                     <nav className="navbar navbar-expand-lg">
-                        <div className="container d-flex align-items-end">
+                        <div className="container d-flex align-items-end position-relative pt-3">
                             <Link href="/">
                                 <a className="navbar-brand">
                                     <img src={require("../../images/logo.png")} alt="logo" />
@@ -140,6 +140,12 @@ class Navbar extends Component {
                                     </li>
                                 
                                 </ul>
+                                 </div>
+
+                                 <div className="login-section-navbar position-absolute">
+                                    <Link href="/login">
+                                        <span>ACCOUNT LOG-IN<i className="flaticon-technical-support"></i> </span>
+                                    </Link>
                                  </div>
                         </div>
                     </nav>

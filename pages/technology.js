@@ -17,6 +17,7 @@ class Index extends Component {
                 <TwoColumnsWithImage/>
                 <TabsWithText
                     classesToAddToSection="bg-mint bg-bottom-curve"
+                    classesToAddToRedList="height-150"
                 />
                 <Footer />
             </React.Fragment>

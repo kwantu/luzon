@@ -7,11 +7,7 @@ mint: #D9EFEB
 gray: #8B9EAA
 black - #231F20
 blue - #D8EEEC
-
-
 */
-
-
 
 /*================================================
 Global CSS - custom
@@ -138,12 +134,12 @@ Navbar Area CSS - custom
 }
 
 .navbar-area.fixed-top {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-bottom: 30px;
 }
 .navbar-area.fixed-top.is-sticky {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    padding-bottom: 20px;
 }
 @media (max-width: 991px) {
   .navbar-area.fixed-top {
@@ -231,6 +227,28 @@ Navbar Area CSS - custom
     max-width: 250px;
 }
 
+.login-section-navbar {
+  background-color: #E6E9EE;
+  padding: 10px 20px;
+  top: 0;
+  right: 0;
+}
+
+.login-section-navbar span, .login-section-navbar i{ 
+  color: #216876;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+.login-section-navbar i{ 
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.login-section-navbar span:hover, .login-section-navbar span i:hover{ 
+  color: #CE2026;
+}
+
 /*================================================
 Banner Area CSS - custom
 =================================================*/
@@ -302,7 +320,7 @@ Banner Area CSS - custom
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn, .default-btn {
   box-shadow: none;
   background: #CE2026;
-  border-radius: 10px;
+  border-radius: 15px;
   
   font-size: 20px;
   line-height: 30px;
@@ -419,7 +437,7 @@ Tabs CSS - custom
   list-style: none;
   max-width: 80%;
   border-bottom: 2px solid #2A6473;
-  min-height: 150px;
+  min-height: 80px;
 }
 
 .tabs-red li.current {
@@ -428,6 +446,14 @@ Tabs CSS - custom
 
 .tabs-red li.current, .tabs-red li.current > * {
   color: #CE2026;
+}
+
+.tabs-red.height-150 li {
+  min-height: 150px;
+}
+
+.tabs-red.height-250 li {
+  min-height: 250px;
 }
 
 /*================================================
@@ -732,4 +758,52 @@ footer a:link, footer a:visited {
 .article-share .footer-social i.socialIconAltColorI:hover {
   background-color:#FFF;
   color: #A3D9D4;
+}
+
+/*================================================
+Contact Us CSS - custom
+=================================================*/
+.single-contact-box:hover i {
+  background-color: #216876;
+  color: #ffffff;
+  border-color: #216876;
+}
+.single-contact-box i {
+  line-height: 120px;
+  width: 120px;
+  height: 120px;
+  border: 2px dashed#D9EFEB;
+  font-size: 60px;
+  
+  color: #D9EFEB;
+ 
+  margin-bottom: 25px;
+}
+
+.single-contact-box p {
+  color: #95AAB5;
+  font-weight: 600;
+}
+
+.contact-form form .form-control {
+  background-color:#D8EEEC;
+  padding: 15px 25px;
+  border: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 15px;
+}
+
+.contact-form form .form-group {
+  margin-bottom: 25px;
+}
+
+.contact-form input::-webkit-input-placeholder,
+.contact-form input:-ms-input-placeholder,
+.contact-form input::placeholder, 
+.contact-form textarea::-webkit-input-placeholder,
+.contact-form textarea:-ms-input-placeholder,
+.contact-form textarea::placeholder {
+  color: #95AAB5 !important;
+  font-weight: 600;
 }

@@ -24,7 +24,7 @@ class TabsWithText extends Component {
     render() {
         
 
-        let { classesToAddToSection } = this.props;
+        let { classesToAddToSection, classesToAddToRedList } = this.props;
 
         return (
             
@@ -47,7 +47,7 @@ class TabsWithText extends Component {
                     <div className="container">
 
                         <div className="tab schedule-list-tab">
-                            <ul className="tabs-red equal-widths-parent px-0">
+                            <ul className={"tabs-red equal-widths-parent px-0 " + ( this.props.classesToAddToRedList )}>
                                 <div>
                                     <li className="current" onClick={(e) => this.openTabSection(e, 'tab1')}> 
                                         <h5>1. Create and distribute apps without coding</h5>
@@ -80,7 +80,7 @@ class TabsWithText extends Component {
                                 <div id="tab1" className="tabs_item">
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <ul className="red-arrow-list">
+                                        <ul className="red-arrow-list">
                                                 <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
                                                 <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
                                                 <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>

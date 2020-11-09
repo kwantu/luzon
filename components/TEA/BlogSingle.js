@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 
 import BlogSidebar from '../Blog/BlogSidebar';
-import CommentsArea from '../Blog/CommentsArea';
+//import CommentsArea from '../Blog/CommentsArea';
 import FooterIcons from './FooterIcons';
 
 class BlogSingle extends Component {
