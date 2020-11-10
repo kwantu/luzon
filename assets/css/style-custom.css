@@ -94,9 +94,39 @@ a:hover, a:active {
   text-decoration: none;
 }
 
+.bg-red {
+  background-color: #CE2026;
+}
+.bg-dark-green {
+  background-color: #013E48;
+}
+.bg-green {
+  background-color: #2A6473;
+}
+.bg-light-green {
+  background-color: #216876;
+}
 .bg-mint {
   background-color: #D9EFEB;
 }
+.bg-gray {
+  background-color: #8B9EAA;
+}
+.bg-black {
+  background-color: #231F20
+}
+.bg-blue {
+  background-color: #D8EEEC;
+}
+.bg-gray-pricing {
+  background-color: #516C76;
+}
+
+
+.bg-white {
+  background-color: #FFF;
+}
+
 
 .bg-top-curve {
   padding-top: 200px;
@@ -124,6 +154,10 @@ a:hover, a:active {
 .rounded-bottom {
   border-bottom-left-radius: 15px !important;
   border-bottom-right-radius: 15px !important;
+}
+
+.spacerLarge {
+  margin-top: 150px;
 }
 
 
@@ -831,4 +865,66 @@ Contact Us CSS - custom
 .contact-form textarea::placeholder {
   color: #95AAB5 !important;
   font-weight: 600;
+}
+
+/*================================================
+Pricing Us CSS - custom
+=================================================*/
+.pricing-block {
+  border-radius: 15px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.pricing-block h3 {
+  color: #FFF;
+}
+
+.pricing-block h3 span {
+  color: #8B9EAA;
+}
+
+.pricing-block h3.h3alternative {
+  color:#013E48;
+  font-weight: 900;
+}
+
+.pricing-block h3.h3alternative span{
+  color: #CE2026;
+  font-weight: 900;
+}
+
+.pricing-block > div {
+  padding: 50px;
+}
+
+@media (max-width: 991px){
+  .pricing-block > div {
+    padding: 15px;
+  }
+}
+
+.pricing-block > div:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.pricing-block > div:last-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+ul.red-pricing-list {
+  margin: 0;
+  padding-inline-start: 0;
+  text-align: center;
+}
+
+ul.red-pricing-list li {
+    list-style-position: inside;
+    list-style-image: url(../../images/shape/checkmark.png);
+    margin-bottom: 20px;
+    padding-left: 0;
+    color: #8B9EAA;
+    font-weight: 700;
 }
