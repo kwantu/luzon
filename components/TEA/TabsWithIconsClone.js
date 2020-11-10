@@ -88,7 +88,9 @@ class TabsWithIconsClone extends Component {
                                     </div>
 
                                     <div className="col-lg-4">
-                                        <img src={require("../../images/white-placeholder-block.png")} alt="image" />
+                                        <img src={require("../../images/stock/IMG_5479.jpg")} alt="image" />
+                                        <p></p>
+                                        <img src={require("../../images/stock/IMG_5481.jpg")} alt="image" />
                                     </div>
                                 </div>     
                             </div>
@@ -117,7 +119,9 @@ class TabsWithIconsClone extends Component {
                                     </div>
 
                                     <div className="col-lg-4">
-                                        <img src={require("../../images/white-placeholder-block.png")} alt="image" />
+                                    <img src={require("../../images/stock/IMG_5483.jpg")} alt="image" />
+                                        <p></p>
+                                        <img src={require("../../images/stock/IMG_5481.jpg")} alt="image" />
                                     </div>
                                 </div>     
                             </div>
@@ -148,7 +152,9 @@ class TabsWithIconsClone extends Component {
                                     </div>
 
                                     <div className="col-lg-4">
-                                        <img src={require("../../images/white-placeholder-block.png")} alt="image" />
+                                        <img src={require("../../images/stock/IMG_5479.jpg")} alt="image" />
+                                        <p></p>
+                                        <img src={require("../../images/stock/IMG_5481.jpg")} alt="image" />
                                     </div>
                                 </div>     
                             </div>

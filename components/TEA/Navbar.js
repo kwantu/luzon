@@ -96,12 +96,12 @@ class Navbar extends Component {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/technology" activeClassName="active">
+                                        <Link href="/our-technology" activeClassName="active">
                                             <a className="nav-link">Technology</a>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/focus-areas" activeClassName="active">
+                                        <Link href="/our-focus-areas" activeClassName="active">
                                             <a className="nav-link">
                                                 Focus Areas
                                                 <i className='bx bx-chevron-down'></i>
@@ -110,19 +110,19 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/focus-areas" activeClassName="active">
+                                                <Link href="/our-focus-areas" activeClassName="active">
                                                     <a className="nav-link">Strategic performance and reporting</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/focus-areas" activeClassName="active">
+                                                <Link href="/our-focus-areas" activeClassName="active">
                                                     <a className="nav-link">Programme management </a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/focus-areas" activeClassName="active">
+                                                <Link href="/our-focus-areas" activeClassName="active">
                                                     <a className="nav-link">Operational and citizen generated data</a>
                                                 </Link>
                                             </li>
@@ -130,7 +130,7 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/products" activeClassName="active">
+                                        <Link href="/our-products" activeClassName="active">
                                             <a className="nav-link">
                                                 Products
                                                 <i className='bx bx-chevron-down'></i>
@@ -139,19 +139,19 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/products" activeClassName="active">
+                                                <Link href="/our-products" activeClassName="active">
                                                     <a className="nav-link">PERFORMANCE APP</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/products" activeClassName="active">
+                                                <Link href="/our-products" activeClassName="active">
                                                     <a className="nav-link">COMMUNITY SCORECARD APP</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/products" activeClassName="active">
+                                                <Link href="/our-products" activeClassName="active">
                                                     <a className="nav-link">PROJECT TRACKING APP</a>
                                                 </Link>
                                             </li>
@@ -164,7 +164,7 @@ class Navbar extends Component {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/contact-us" activeClassName="active">
+                                        <Link href="/our-contact-us" activeClassName="active">
                                             <a className="nav-link">Contact Us</a>
                                         </Link>
                                     </li>
@@ -173,7 +173,7 @@ class Navbar extends Component {
                                  </div>
 
                                  <div className="login-section-navbar position-absolute">
-                                    <Link href="/login">
+                                    <Link href="/our-login">
                                         <span>ACCOUNT LOG-IN<i className="flaticon-technical-support"></i> </span>
                                     </Link>
                                  </div>
