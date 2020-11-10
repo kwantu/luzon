@@ -111,19 +111,19 @@ class Navbar extends Component {
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link href="/focus-areas" activeClassName="active">
-                                                    <a className="nav-link">Lorem ipsum dolor sit amet</a>
+                                                    <a className="nav-link">Strategic performance and reporting</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
                                                 <Link href="/focus-areas" activeClassName="active">
-                                                    <a className="nav-link">Lorem ipsum dolor sit amet</a>
+                                                    <a className="nav-link">Programme management </a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
                                                 <Link href="/focus-areas" activeClassName="active">
-                                                    <a className="nav-link">Lorem ipsum dolor sit amet</a>
+                                                    <a className="nav-link">Operational and citizen generated data</a>
                                                 </Link>
                                             </li>
                                         </ul>

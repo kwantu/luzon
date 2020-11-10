@@ -80,7 +80,7 @@ class TabsWithIcons extends Component {
 
                                     <div className="col-lg-7">
                                         <div className="tab-image">
-                                            <img src={require("../../images/infographics/home_infographic.png")} alt="image" />
+                                        <img src={require("../../images/infographics/home_infographic1.png")} alt="image" />
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@ class TabsWithIcons extends Component {
 
                                     <div className="col-lg-7">
                                         <div className="tab-image">
-                                            <img src={require("../../images/infographics/home_infographic.png")} alt="image" />
+                                            <img src={require("../../images/infographics/home_infographic2.png")} alt="image" />
                                         </div>
                                     </div>
                                 </div>
@@ -113,25 +113,23 @@ class TabsWithIcons extends Component {
                             <div id="tab3" className="tabs_item">
                             <div className="row">
                                     <div className="col-lg-12">
-                                        <h3>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-                                        <h3>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                                        <h3>Kwantu can help digitise data from social accountability methodologies.  This in turn helps improve how you can analyse and use this data.  Learn more about:</h3>
                                     </div>
 
                                     <div className="col-lg-5">
                                        <br className="mt-5"></br>
 
                                         <ul className="red-arrow-list">
-                                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></li>
-                                            <li><a href="#">dolor sit amet, consectetur adipiscing elit, sed do eiusmod</a></li>
-                                            <li><a href="#">consectetur adipiscing elit, sed do eiusmod tempor incididunt</a></li>
-                                            <li><a href="#">sed do eiusmod tempor incididunt</a></li>
-                                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Community scorecards</a></li>
+                                            <li><a href="#">Mystery visitor</a></li>
+                                            <li><a href="#">Public expenditure tracking</a></li>
+                                            <li><a href="#">Social audits</a></li>
                                         </ul>
                                     </div>
 
                                     <div className="col-lg-7">
                                         <div className="tab-image">
-                                            <img src={require("../../images/infographics/home_infographic.png")} alt="image" />
+                                            <img src={require("../../images/infographics/home_infographic3.png")} alt="image" />
                                         </div>
                                     </div>
                                 </div>

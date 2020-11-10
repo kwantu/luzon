@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-import TwoColumnsWithImage from './TwoColumnsWithImage'
+import TwoColumnsWithImageAlternative from './TwoColumnsWithImageAlternative';
 
 class ProductPageComponent extends Component {
     // Tab
@@ -38,7 +38,7 @@ class ProductPageComponent extends Component {
                         <div className="tab schedule-list-tab">
                             <ul className={"tabs-red equal-widths-parent px-0 " + ( this.props.classesToAddToRedList )}>
                                 <div>
-                                    <li className="current" onClick={(e) => this.openTabSection(e, 'tab1')}> 
+                                    <li className="current " onClick={(e) => this.openTabSection(e, 'tab1')}> 
                                         <h5>Performance App</h5>
                                     </li>
                                 </div>
@@ -62,15 +62,15 @@ class ProductPageComponent extends Component {
 
                             <div className="tab_content">
                                 <div id="tab1" className="tabs_item">
-                                    <TwoColumnsWithImage/>
+                                    <TwoColumnsWithImageAlternative/>
                                 </div>
 
                                 <div id="tab2" className="tabs_item">
-                                    <TwoColumnsWithImage/>
+                                    <TwoColumnsWithImageAlternative/>
                                 </div>
 
                                 <div id="tab3" className="tabs_item">
-                                    <TwoColumnsWithImage/>
+                                    <TwoColumnsWithImageAlternative/>
                                 </div>
 
                               

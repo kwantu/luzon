@@ -82,10 +82,10 @@ class TabsWithText extends Component {
                                         <div className="col-lg-6">
                                         <ul className="red-arrow-list">
                                                 <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
-                                                <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
-                                                <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
-                                                <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
-                                                <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
+                                                <li>Powerful workflow engine that manages role based assignments, server side upsides and integrates with external APIs</li>
+                                                <li>Built in reporting tool to create your own data dictionary and from that either publish </li>
+                                                <li>Integrated dashboarding tools for analysis and visualisation</li>
+                                                <li>Built in CMS and website builder to make your data public in a web site</li>
                                             </ul>
                                             <br className="mt-5"></br>
                                             <div className="banner-btn animated fadeInUp">
@@ -107,11 +107,13 @@ class TabsWithText extends Component {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <ul className="red-arrow-list">
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
-                                                <li>Design forms with advanced calculations, complex tables and autoload data from other forms</li>
+                                                <li>Able to run in the browser, on the desktop (windows and mac) or on a mobile device</li>
+                                                <li>Able to work online from the cloud, or offline when networks are poor or unreliable</li>
+                                                <li>Publish results to a public website or intranet with limited access</li>
+                                                <li>Integrated GIS and mapping components that work offline and allows you to show your results on maps</li>
+                                                <li>Social Reporter tool to publish your story or report using integrated maps, image libraries, videos and sound</li>
+                                                <li>Biometric integration for verification of attendance</li>
+                                                <li>Document store to upload and store documents</li>
                                             </ul>
                                             <br className="mt-5"></br>
                                             <div className="banner-btn animated fadeInUp">
@@ -133,10 +135,11 @@ class TabsWithText extends Component {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <ul className="red-arrow-list">
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
+                                                <li>Cloud based solution, yet maintains separate databases for each client.</li>
+                                                <li>Advanced data sharing tools enabling different organisations using the same app to share data with each or create a common repository of data</li>
+                                                <li>API to integrate data from external sources or existing applications</li>
+                                                <li>Ability to use the micro-data applications from the kwantu platform in your own applications</li>
+
                                                 
                                             </ul>
                                             <br className="mt-5"></br>
@@ -159,12 +162,15 @@ class TabsWithText extends Component {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <ul className="red-arrow-list">
-                                                <li>Lorem ipsum dolor sit amet</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                                
+                                                <li>Couchdb as the core database solution.</li>
+                                                <li>Node.js as the core application platform</li>
+                                                <li>Javascript</li>
+                                                <li>Redis as the transaction manager</li>
+                                                <li>Exist-db as a scripting query engine</li>
+                                                <li>MySQL as a user manager</li>
+                                                <li>ElasticSearch as the reporting warehouse</li>
+                                                <li>jasperReports as the reporting engine</li>
+                                                <li>STRAPI and nextjs as the CMS and web builder tools</li>      
                                             </ul>
                                             <br className="mt-5"></br>
                                             <div className="banner-btn animated fadeInUp">

@@ -67,14 +67,14 @@ class TabsWithIconsClone extends Component {
                             <div id="tab1" className="tabs_item">
                                 <div className="row">
                                     <div className="col-lg-8">
-                                        <h2>One Lorem ipsum dolor sit amet, consectetur</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                        <h2>Strategic performance and reporting</h2>
+                                        <p>The Kwantu platform is an open source ‘low-code’ platform that makes it much faster and easier to create data orientated apps without needing a developer.  Apps created using this platform work offline (in a browser or via native Android, Windows or Mac apps). </p>
                                         <br className="mt-5"></br>
                                         <ul className="red-arrow-list">
-                                            <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
+                                            <li>Reporting on annual performance and development plans such as Area Development plans, annual performance plans, budget implementation plans</li>
                                             <li>Lorem ipsum dolor sit amet, consectetur</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
+                                            <li>Monitoring frameworks with indicators, result areas and performance</li>
+                                            <li>Data hub to pull data from all levels, integrating social and </li>
                                         </ul>
                                         <br className="mt-5"></br>
                                         <div className="banner-btn animated fadeInUp">
@@ -96,14 +96,14 @@ class TabsWithIconsClone extends Component {
                             <div id="tab2" className="tabs_item">
                                 <div className="row">
                                     <div className="col-lg-8">
-                                        <h2>Two Lorem ipsum dolor sit amet, consectetur</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                        <h2>Programme management </h2>
+                                        <p>We have also created management information systems for large cash transfer programmes, implemented via thousands of separate projects and tracking attendance for millions of participants.</p>
                                         <br className="mt-5"></br>
                                         <ul className="red-arrow-list">
-                                            <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
+                                            <li>Reporting on national programmes</li>
+                                            <li>Tracking project milestones</li>
+                                            <li>Managing support to farmers and SMEs</li>
+                                            <li>Managing training to communities</li>
                                         </ul>
                                         <br className="mt-5"></br>
                                         <div className="banner-btn animated fadeInUp">
@@ -125,14 +125,16 @@ class TabsWithIconsClone extends Component {
                             <div id="tab3" className="tabs_item">
                                 <div className="row">
                                     <div className="col-lg-8">
-                                        <h2>Three Lorem ipsum dolor sit amet, consectetur</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                        <h2>Operational and citizen generated data</h2>
+                                        <p>We have significant experience working with social accountability and advocacy.  Examples of work in these areas include apps for outcome harvesting, community scorecards and social audits.  These collect data as part of the implementation process and aggregate for learning, advocacy and evaluation purposes. </p>
                                         <br className="mt-5"></br>
                                         <ul className="red-arrow-list">
-                                            <li>Lorem ipsum dolor sit amet, consectetur, consectetur adipiscing elit, sed do, consectetur adipiscing elit, sed do</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur</li>
+                                            <li>Community scorecards</li>
+                                            <li>Mystery visitor</li>
+                                            <li>Public expenditure tracking</li>
+                                            <li>Social audits</li>
+                                            <li>Public participation in planning</li>
+                                            <li>Public request tracking</li>
                                         </ul>
                                         <br className="mt-5"></br>
                                         <div className="banner-btn animated fadeInUp">

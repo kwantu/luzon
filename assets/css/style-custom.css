@@ -47,6 +47,11 @@ h2:after, .red-dot-at-end-of-text:after{
   color: #CE2026;
 }
 
+h2.smallFont {
+  font-size: 35px;
+  line-height: 40px;
+}
+
 h3 {
   color: #231F20;
   font-size: 35px;
