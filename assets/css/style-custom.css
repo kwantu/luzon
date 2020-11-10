@@ -928,3 +928,7 @@ ul.red-pricing-list li {
     color: #8B9EAA;
     font-weight: 700;
 }
+
+ul.red-pricing-list li.xmark {
+  list-style-image: url(../../images/shape/xmark.png);
+}

@@ -33,9 +33,9 @@ class PricingPageComponent extends Component {
                                             <li>10 GB Hosting</li>
                                             <li>2 Unique Users</li>
                                             <li>12 GB Capacity</li>
-                                            <li>Anywhere Access</li>
-                                            <li>Weekly Backup</li>
-                                            <li>Support 24/Hour</li>
+                                            <li className="xmark">Anywhere Access</li>
+                                            <li className="xmark">Weekly Backup</li>
+                                            <li className="xmark">Support 24/Hour</li>
                                         </ul>
                                     </div>
                                     <div className="p-3">
@@ -65,9 +65,9 @@ class PricingPageComponent extends Component {
                                             <li>10 GB Hosting</li>
                                             <li>2 Unique Users</li>
                                             <li>12 GB Capacity</li>
-                                            <li>Anywhere Access</li>
-                                            <li>Weekly Backup</li>
-                                            <li>Support 24/Hour</li>
+                                            <li className="xmark">Anywhere Access</li>
+                                            <li className="xmark">Weekly Backup</li>
+                                            <li className="xmark">Support 24/Hour</li>
                                         </ul>
                                     </div>
                                     <div className="p-3">
@@ -97,9 +97,9 @@ class PricingPageComponent extends Component {
                                             <li>10 GB Hosting</li>
                                             <li>2 Unique Users</li>
                                             <li>12 GB Capacity</li>
-                                            <li>Anywhere Access</li>
-                                            <li>Weekly Backup</li>
-                                            <li>Support 24/Hour</li>
+                                            <li className="xmark">Anywhere Access</li>
+                                            <li className="xmark">Weekly Backup</li>
+                                            <li className="xmark">Support 24/Hour</li>
                                         </ul>
                                     </div>
                                     <div className="p-3">
