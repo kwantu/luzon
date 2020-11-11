@@ -52,6 +52,17 @@ h2.smallFont {
   line-height: 40px;
 }
 
+@media (max-width: 991px) {
+  h2, .page-title-content h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h2.smallFont {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
 h3 {
   color: #231F20;
   font-size: 35px;
@@ -59,6 +70,14 @@ h3 {
   font-weight: 700;
   text-transform: none;
 }
+
+@media (max-width: 991px) {
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
 
 h4, h5 {
   color: #2A6473;
@@ -68,9 +87,23 @@ h4, h5 {
   text-transform: none;
 }
 
+@media (max-width: 991px) {
+  h4, h5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
 h5 {
   font-size: 25px;
   line-height: 30px;
+}
+
+@media (max-width: 991px) {
+  h5 {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 p, li {
@@ -78,11 +111,28 @@ p, li {
   line-height: 25px;
 }
 
+@media (max-width: 991px) {
+  p, li {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+
 ul.red-arrow-list li {
   list-style-position: outside;
   list-style-image: url(../../images/shape/red-arrow-right.png);
   margin-bottom: 20px;
   padding-left: 15px;
+}
+
+@media(max-width: 991px){
+  ul.red-arrow-list li {
+    list-style-image: url(../../images/shape/red-arrow-right-small.png);
+  }
+  /* ul.red-arrow-list {
+    padding-inline-start: 20px;
+  } */
 }
 
 a:link, a:visited {
@@ -160,6 +210,40 @@ a:hover, a:active {
   margin-top: 150px;
 }
 
+@media(min-width: 991px){
+    .hidden-sm {
+      display: block;
+    }
+    .visible-sm {
+      display: none;
+    }
+}
+@media(max-width: 991px){
+    .hidden-sm {
+      display: none;
+    }
+    .visible-sm {
+      display: block;
+    }
+}
+
+.go-top, .preloader .preloader span {
+  background-color: #CE2026 !important;
+  border-color: #CE2026;
+}
+
+@media(max-width: 991px){
+  .ptb-100 {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
+}
+
+@media(max-width: 991px){
+  img {
+    margin-top: 20px;
+  }
+}
 
 /*================================================
 Navbar Area CSS - custom
@@ -184,6 +268,7 @@ Navbar Area CSS - custom
   .navbar-area.fixed-top {
     padding-top: 10px;
     padding-bottom: 10px;
+    border-bottom: 2px solid #8B9EAA;
   }
   .navbar-area.fixed-top.is-sticky {
       padding-top: 10px;
@@ -265,6 +350,12 @@ Navbar Area CSS - custom
     max-width: 250px;
 }
 
+@media (max-width:991px) {
+  .navbar-brand img {
+    margin-top: 0 !important;
+  }
+}
+
 .login-section-navbar {
   background-color: #E6E9EE;
   padding: 10px 20px;
@@ -285,6 +376,11 @@ Navbar Area CSS - custom
 
 .login-section-navbar span:hover, .login-section-navbar span i:hover{ 
   color: #CE2026;
+}
+
+.navbar-collapse.show{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*================================================
@@ -338,8 +434,8 @@ Banner Area CSS - custom
 @media (max-width: 991px) {
   .home-sliders .home-item .main-banner-content h1, 
   .home-sliders .home-item .main-banner-content p {
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 
@@ -347,6 +443,13 @@ Banner Area CSS - custom
   background: #FFF;
   padding: 50px 60px;
   border-radius: 35px;
+}
+
+@media (max-width: 991px) {
+  .main-banner-content {
+    padding: 25px 30px;
+    border-radius: 15px;
+  }
 }
 
 .banner-btn .default-btn {
@@ -368,6 +471,13 @@ Banner Area CSS - custom
   
 }
 
+@media (max-width: 991px) {
+  .home-sliders .home-item .main-banner-content .banner-btn .default-btn, .default-btn {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover, .default-btn:hover {
   box-shadow: none;
   color: #FFF;
@@ -381,12 +491,31 @@ Banner Area CSS - custom
   display: inline-flex;
 }
 
+@media (max-width: 991px) {
+  .home-sliders .home-item .main-banner-content .banner-btn .default-btn i, .default-btn i {
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 1px;
+  }
+}
+
 .owl-theme .owl-dots .owl-dot {
   zoom: 2 !important;
 }
 
 .owl-theme .owl-dots .owl-dot .active{
   zoom: 2.3 !important;
+}
+
+@media (max-width: 991px) {
+  .owl-theme .owl-dots .owl-dot {
+    zoom: 1 !important;
+  }
+  
+  .owl-theme .owl-dots .owl-dot .active{
+    zoom: 1.3 !important;
+  }
 }
 
 .home-sliders.owl-theme .owl-dots .owl-dot:hover span, .home-sliders.owl-theme .owl-dots .owl-dot.active span, 
@@ -406,15 +535,19 @@ Page Banner CSS - custom
   background-repeat: no-repeat;
   height: 425px;
   background-attachment: fixed;
+  background-color: #D8EEEC;
+  margin-top: 35px;
+}
+
+@media (max-width: 991px) {
+  .page-title-area {
+    margin-top: 80px;
+    height: 250px;
+  }
 }
 
 .page-title-area::before {
   opacity: 0;
-}
-
-.page-title-area {
-  background-color: #D8EEEC;
-  margin-top: 35px;
 }
 
 /*================================================
@@ -427,6 +560,13 @@ Sections CSS - custom
   flex-flow: row wrap;
 }
 
+@media (max-width: 991px) {
+  .equal-widths-parent {
+    flex-flow: nowrap;
+  }
+}
+
+
 .equal-widths-parent > * {
   flex: 1;
 }
@@ -438,6 +578,11 @@ Tabs CSS - custom
 .home-tab-icon {
   max-width: 150px;
 }
+@media (max-width: 991px) {
+  .home-tab-icon {
+    max-width: 100px;
+  }
+}
 .schedule-list-tab .tabs li span{
   font-size: 22px;
   line-height: 25px;;
@@ -447,8 +592,9 @@ Tabs CSS - custom
 }
 @media (max-width: 991px) {
   .schedule-list-tab .tabs li span {
-    font-size: 17px;
+    font-size: 14px;
     line-height: 20px;
+    padding: 0 5px;
   }
 }
 
@@ -456,6 +602,13 @@ Tabs CSS - custom
   background-color: #f8f8f8;
   min-width: 70%;
   min-height: 220px;
+}
+
+@media (max-width: 991px) {
+  .schedule-list-tab .tabs li {
+    min-height: 200px;
+    padding-bottom: 20px;
+  }
 }
 
 .schedule-list-tab .tabs li.current, .schedule-list-tab .tabs li:hover {
@@ -475,6 +628,13 @@ Tabs CSS - custom
   line-height: 45px;
 }
 
+.schedule-list-tab .tabs > div {
+  margin-right: 10px;
+}
+.schedule-list-tab .tabs > div:last-child {
+  margin-right: 0px;
+}
+
 .product-tabs li {
   padding: 40px;
 }
@@ -485,6 +645,20 @@ Tabs CSS - custom
   max-width: 80%;
   border-bottom: 2px solid #2A6473;
   min-height: 80px;
+}
+
+@media (max-width: 991px) {
+  .tabs-red.equal-widths-parent {
+    display: block !important;
+  }
+  .tabs-red li {
+    min-height: unset;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+  .tabs-red.height-150 li{
+    height: unset;
+  }
 }
 
 .tabs-red li.current {
@@ -537,6 +711,17 @@ Blog CSS - custom
   margin: 0 10px;
 }
 
+@media (max-width: 991px) {
+  .pagination-area .page-numbers {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 5px;
+  }
+}
+
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
   background: #2A6473;
   color: #ffffff;
@@ -567,6 +752,12 @@ blockquote, .blockquote {
   padding: 50px 100px !important;
 }
 
+@media (max-width:991px) {
+  blockquote, .blockquote {
+    padding: 25px 40px !important;
+  }
+}
+
 blockquote::after, .blockquote::after {
   width: 8px;
   background-color: #216876;
@@ -582,6 +773,13 @@ blockquote p, .blockquote p {
   font-weight: 500;
   font-size: 28px !important;
   line-height: 32px;
+}
+
+@media (max-width:991px) {
+  blockquote p, .blockquote p {
+    font-size: 15px !important;
+    line-height: 20px;
+  }
 }
 
 .blog-details-desc .article-footer .article-tags a, 
@@ -738,6 +936,19 @@ footer a:link, footer a:visited {
   text-align: right;
 }
 
+@media (max-width: 991px) {
+  .single-footer-widget .footer-social,
+  .article-share .footer-social {
+    text-align: left;
+    padding-inline-start: 0;
+    margin-top: 20px;
+  }
+  .blog-details-desc .article-footer .article-share {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
 .article-share .footer-social li {
   text-align: center;
 }
@@ -781,14 +992,36 @@ footer a:link, footer a:visited {
   margin-bottom: 100px;
 }
 
+@media (max-width: 991px) {
+  .subscribe-area {
+    margin-bottom: 10px;
+  }
+}
+
 .subscribe-area .newsletter-form button {
   background-color: #A3DAD4;
   color: #216876;
   font-weight: 900;
 }
 
+@media (max-width: 991px) {
+  .subscribe-area .newsletter-form button {
+    font-size: 15px;
+    height: 50px;
+    padding: 0 20px;
+  }
+}
+
 .subscribe-area .newsletter-form .input-newsletter {
   font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  .subscribe-area .newsletter-form .input-newsletter {
+    height: 50px;
+    padding-left: 15px;
+    font-size: 15px;
+}
 }
 
 ::-webkit-input-placeholder,

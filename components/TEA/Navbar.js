@@ -62,7 +62,7 @@ class Navbar extends Component {
             <React.Fragment>
                <div id="navbar" className="navbar-area fixed-top bg-white">
                     <nav className="navbar navbar-expand-lg">
-                        <div className="container d-flex align-items-end position-relative pt-3">
+                        <div className="container d-flex align-items-end position-relative pt-sm-3">
                             <Link href="/">
                                 <a className="navbar-brand">
                                     <img src={require("../../images/logo.png")} alt="logo" />
@@ -168,15 +168,23 @@ class Navbar extends Component {
                                             <a className="nav-link">Contact Us</a>
                                         </Link>
                                     </li>
+
+                                    { /* mobile only li */}
+                                    <li className="nav-item visible-sm">
+                                        <Link href="/our-login" activeClassName="active">
+                                            <a className="nav-link">ACCOUNT LOG-IN</a>
+                                        </Link>
+                                    </li>
                                 
                                 </ul>
-                                 </div>
+                            </div>
 
-                                 <div className="login-section-navbar position-absolute">
-                                    <Link href="/our-login">
-                                        <span>ACCOUNT LOG-IN<i className="flaticon-technical-support"></i> </span>
-                                    </Link>
-                                 </div>
+                            <div className="login-section-navbar position-absolute hidden-sm">
+                            <Link href="/our-login">
+                                <span>ACCOUNT LOG-IN<i className="flaticon-technical-support"></i> </span>
+                            </Link>
+                            </div>
+
                         </div>
                     </nav>
                 </div>

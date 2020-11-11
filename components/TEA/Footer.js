@@ -26,7 +26,7 @@ class Footer extends Component {
                         </div>
 
                         <div className="row mt-5">
-                            <div className="col-sm-4">
+                            <div className="col-lg-4">
                                 <div className="single-footer-widget">
                   
                                     <FooterIcons/>
@@ -34,8 +34,8 @@ class Footer extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-sm-4">
-                                <br className="mt-5 d-block d-sm-none"></br>
+                            <div className="col-lg-4 col-6">
+                                
                                 <h5>About Us</h5>
                                 <p>
                                     <Link href="#">
@@ -54,9 +54,8 @@ class Footer extends Component {
                                 </p>
                             </div>
 
-                            <div className="col-sm-4">
-                                <br className="mt-5 d-block d-sm-none"></br>
-                                <br className="mt-5 d-block d-sm-none"></br>
+                            <div className="col-lg-4 col-6">
+                                
                                 <h5>Contact Us</h5>
                                 <p>
                                     <Link href="#">
