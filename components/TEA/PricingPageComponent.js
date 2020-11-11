@@ -13,9 +13,10 @@ class PricingPageComponent extends Component {
                 <section className={ "ptb-100 " + ( this.props.classesToAddToSection ) }>
                     <div className="container">
                         <div className="row">
-                            <h2>Pricing</h2>
-                            <div className="spacerLarge"></div>
-                            
+                            <div className="col">
+                                <h2>Pricing</h2>
+                                <div className="spacerLarge"></div>
+                            </div>
                         </div>
 
                         <div className="row">

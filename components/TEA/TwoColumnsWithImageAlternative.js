@@ -9,7 +9,7 @@ class TwoColumnsWithImageAlternative extends Component {
         return (
             
             <div>
-                <section className={ "ptb-100 " + ( this.props.classesToAddToSection ) }>
+                <section className={ " " + ( this.props.classesToAddToSection ) }>
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-5">

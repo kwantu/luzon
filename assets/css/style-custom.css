@@ -210,19 +210,25 @@ a:hover, a:active {
   margin-top: 150px;
 }
 
+@media(max-width: 991px){
+  .spacerLarge {
+    margin-top: 50px;
+  }
+}
+
 @media(min-width: 991px){
-    .hidden-sm {
+    .hidden-xs {
       display: block;
     }
-    .visible-sm {
+    .visible-xs {
       display: none;
     }
 }
 @media(max-width: 991px){
-    .hidden-sm {
+    .hidden-xs {
       display: none;
     }
-    .visible-sm {
+    .visible-xs {
       display: block;
     }
 }
@@ -1107,6 +1113,12 @@ Pricing Us CSS - custom
   border-radius: 15px;
   background-color: #FFF;
   text-align: center;
+}
+
+@media (max-width: 991px) {
+  .pricing-block {
+    margin-bottom: 50px;
+  }
 }
 
 .pricing-block h3 {

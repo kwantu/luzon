@@ -170,7 +170,7 @@ class Navbar extends Component {
                                     </li>
 
                                     { /* mobile only li */}
-                                    <li className="nav-item visible-sm">
+                                    <li className="nav-item visible-xs">
                                         <Link href="/our-login" activeClassName="active">
                                             <a className="nav-link">ACCOUNT LOG-IN</a>
                                         </Link>
@@ -179,7 +179,7 @@ class Navbar extends Component {
                                 </ul>
                             </div>
 
-                            <div className="login-section-navbar position-absolute hidden-sm">
+                            <div className="login-section-navbar position-absolute hidden-xs">
                             <Link href="/our-login">
                                 <span>ACCOUNT LOG-IN<i className="flaticon-technical-support"></i> </span>
                             </Link>
