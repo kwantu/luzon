@@ -623,6 +623,7 @@ Tabs CSS - custom
   }
 }
 
+
 .schedule-list-tab .tabs li.current, .schedule-list-tab .tabs li:hover {
   background-color: #b2dcd8;
 }
@@ -646,6 +647,12 @@ Tabs CSS - custom
     font-size: 20px;
     line-height: 25px;
     padding: 0 20px 40px 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .schedule-list-tab .tabs li span.product-tab-text {
+    padding-top: 40px;
   }
 }
 
