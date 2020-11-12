@@ -21,7 +21,7 @@ class TwoColumnsWithImage extends Component {
                                 <p>We have designed the kwantu platform as a technical foundation to make this possible. </p>
                             </div>
                             <div className="col-lg-6">
-                                <img src={require("../../images/green-placeholder-block.png")} alt="image" />
+                                <img src={require("../../images/infographics/tech_infographic1.png")} alt="image" />
                             </div>
                         </div>     
                     </div>
