@@ -582,6 +582,11 @@ Sections CSS - custom
 Tabs CSS - custom
 =================================================*/
 /* ==== tabs with icons ==== */
+
+.tab li{
+  cursor: pointer;
+}
+
 .home-tab-icon {
   max-width: 150px;
 }
