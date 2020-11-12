@@ -22,7 +22,7 @@ class TwoByThreeAlternative extends Component {
                         </div>
 
                         <div className="row">
-                            <div className="col-lg-8">
+                            <div className="col-lg-6">
                                 <div className="row d-flex align-items-center">
                                     <div className="col-2">
                                         <img src={require("../../images/icons/icon1.png")} alt="image" />
@@ -105,8 +105,8 @@ class TwoByThreeAlternative extends Component {
                                 </div>
 
                             </div>
-                            <div className="col-lg-4 pl-lg-5">
-                                <img src={require("../../images/stock/motherboard.jpg")} alt="image" />
+                            <div className="col-lg-6 pl-lg-5">
+                            <img src={require("../../images/infographics/home_infographic4.png")} alt="image" />
                             </div>
                         </div>
                         
