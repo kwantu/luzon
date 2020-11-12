@@ -635,10 +635,21 @@ Tabs CSS - custom
   filter: brightness(0) invert(1);
 }
 
-.schedule-list-tab .tabs li span.product-tab-text {
-  font-size: 40px;
-  line-height: 45px;
+@media (min-width: 991px) {
+  .schedule-list-tab .tabs li span.product-tab-text {
+    font-size: 31px;
+    line-height: 35px;
+    padding: 40px 20px 0 20px;
+  }
+  
+  .schedule-list-tab .tabs li span.product-tab-text-small {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 20px 40px 20px;
+  }
 }
+
+
 
 .schedule-list-tab .tabs > div {
   margin-right: 10px;

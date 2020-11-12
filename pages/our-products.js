@@ -6,6 +6,7 @@ import ProductPageComponent from '../components/TEA/ProductPageComponent';
 import InAction from '../components/TEA/InAction';
 import PricingPageComponent from '../components/TEA/PricingPageComponent';
 import Footer from '../components/TEA/Footer';
+import TabsWithHeadings from '../components/TEA/TabsWithHeadings';
 
 
 
@@ -18,6 +19,10 @@ class Index extends Component {
                     pageTitle="Products" 
                 /> 
                 <ProductPageComponent/>
+                <TabsWithHeadings
+                    classesToAddToSection="bg-mint bg-bottom-curve "
+                    tabHoverStyle="dark"
+                />
                 <InAction/>
                 <PricingPageComponent
                     classesToAddToSection="bg-mint"

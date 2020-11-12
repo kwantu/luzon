@@ -49,7 +49,7 @@ class TabsWithHeadings extends Component {
                                 <li className={ "current " + ( this.props.tabHoverStyle ) } onClick={(e) => this.openTabSection(e, 'tab11')}> 
                                     <span className="product-tab-text red-dot-at-end-of-text">Sed quat dolesec aepedit unda</span>
                                     <br></br>
-                                    <span className="home-tab-text">Aditatus reperfe rroreped modigendae prepre pore et pario et ipidunt etur? Nam, occus exerfer iorero.</span>
+                                    <span className="product-tab-text-small">Aditatus reperfe rroreped modigendae prepre pore et pario et ipidunt etur? Nam, occus exerfer iorero.</span>
                                 </li>
                             </div>
                             
@@ -57,7 +57,7 @@ class TabsWithHeadings extends Component {
                                 <li className={ " " + ( this.props.tabHoverStyle ) } onClick={(e) => this.openTabSection(e, 'tab22')}> 
                                 <span className="product-tab-text red-dot-at-end-of-text">Nam occus exerfer iorero ellendis.</span>
                                     <br></br>
-                                    <span className="home-tab-text">Aditatus reperfe rroreped modigendae prepre pore et pario et ipidunt etur? Nam, occus exerfer iorero.</span>
+                                    <span className="product-tab-text-small">Aditatus reperfe rroreped modigendae prepre pore et pario et ipidunt etur? Nam, occus exerfer iorero.</span>
                                 </li>
                             </div>
                             
@@ -65,7 +65,7 @@ class TabsWithHeadings extends Component {
                                 <li className={ " " + ( this.props.tabHoverStyle ) } onClick={(e) => this.openTabSection(e, 'tab33')}> 
                                 <span className="product-tab-text red-dot-at-end-of-text">Ellendis Nam occus exerfer iorero</span>
                                     <br></br>
-                                    <span className="home-tab-text">Aditatus reperfe rroreped modigendae prepre pore et pario et ipidunt etur? Nam, occus exerfer iorero.</span>
+                                    <span className="product-tab-text-small">Aditatus reperfe rroreped modigendae prepre pore et pario et ipidunt etur? Nam, occus exerfer iorero.</span>
                                 </li>
                             </div>
 
