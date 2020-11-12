@@ -373,6 +373,7 @@ Navbar Area CSS - custom
   color: #216876;
   line-height: 25px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .login-section-navbar i{ 
