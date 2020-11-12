@@ -221,12 +221,12 @@ a:hover, a:active {
       display: block;
     }
     .visible-xs {
-      display: none;
+      display: none !important;
     }
 }
 @media(max-width: 991px){
     .hidden-xs {
-      display: none;
+      display: none !important;
     }
     .visible-xs {
       display: block;
