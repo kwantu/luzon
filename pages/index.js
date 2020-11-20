@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layout/Navbar';
-import BannerSlider from '../components/HomeOne/BannerSlider';
-import Features from '../components/HomeOne/Features';
-import AboutUs from '../components/HomeOne/AboutUs';
-import Services from '../components/HomeOne/Services';
-import ServiceDevelopment from '../components/HomeOne/ServiceDevelopment';
-import IntroVideo from '../components/HomeOne/IntroVideo';
-import WhyChooseUs from '../components/HomeOne/WhyChooseUs';
-import Projects from '../components/HomeOne/Projects';
-import FeedbackStyleOne from '../components/Common/FeedbackStyleOne';
-import BlogPost from '../components/Common/BlogPost';
-import Footer from '../components/Layout/Footer';
+
+import Navbar from '../components/TEA/Navbar';
+import BannerSlider from '../components/TEA/BannerSlider';
+import TabsWithIcons from '../components/TEA/TabsWithIcons';
+import TwoByThreeAlternative from '../components/TEA/TwoByThreeAlternative';
+import BlogPageComponentHome from '../components/TEA/BlogPageComponentHome';
+import Footer from '../components/TEA/Footer';
 
 class Index extends Component {
     render() {
@@ -18,15 +13,16 @@ class Index extends Component {
             <React.Fragment>
                 <Navbar />
                 <BannerSlider />
-                <Features /> 
-                <AboutUs />
-                <Services />
-                <ServiceDevelopment />
-                <IntroVideo />
-                <WhyChooseUs />
-                <Projects />
-                <FeedbackStyleOne />
-                <BlogPost />
+                <TabsWithIcons 
+                    classesToAddToSection=""
+                    tabHoverStyle=""
+                />
+                <TwoByThreeAlternative 
+                    classesToAddToSection="bg-mint bg-top-curve"
+                />
+                <BlogPageComponentHome
+                    classesToAddToSection="bg-mint bg-bottom-curve"
+                />
                 <Footer />
             </React.Fragment>
         );

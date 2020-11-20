@@ -10,6 +10,8 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
 
+import '../assets/css/style-custom.css';
+
 import App from 'next/app';
 import { DefaultSeo } from 'next-seo';
 
